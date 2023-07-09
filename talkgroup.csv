@@ -1,0 +1,961 @@
+DEC,HEX,Mode,Alpha Tag,Description,Tag,Group,Priority
+32,20,A,UCA Tech 2,System Testing 2,Business,Radio Technicians,3
+64,40,A,UCA Tech 4,System Testing 4,Business,Radio Technicians,3
+96,60,A,NOAA Weather,NOAA Weather re-broadcast,Emergency Ops,Utah State Misc,3
+224,0,A,UPD Tacical 1,Unified Police Tactical 1,Law Tac,Salt Lake County,3
+256,100,A,UPD West,Unified Police West Oquirrh Division,Law Dispatch,Salt Lake County,3
+288,120,A,UPD Taylorsville,Unified Police Taylorsville/Special Services,Law Dispatch,Salt Lake County,3
+320,140,A,UPD East,Unified Police East Wasatch Division,Law Dispatch,Salt Lake County,3
+352,160,A,UPD Request 1,Unified Police Request 1,Law Talk,Salt Lake County,3
+384,180,A,UPD Tacical 2,Unified Police Tactical 2,Law Tac,Salt Lake County,3
+416,1a0,A,UPD Car/Car,Unified Police Car/Car,Law Tac,Salt Lake County,3
+448,1c0,A,SLSO Statewide,Sheriff Statewide,Law Talk,Salt Lake County,3
+480,1,A,SLSO Detectives,Sheriff Detectives,Law Talk,Salt Lake County,3
+512,200,A,SLSO Court,Sheriff Court Services,Law Talk,Salt Lake County,3
+544,220,A,UPD Midvalley,Unified Police Midvalley,Law Dispatch,Salt Lake County,3
+576,240,A,SLSO Comms,Sheriff Communications,Law Talk,Salt Lake County,3
+640,280,A,SLSO Special Ops,Sheriff Special Operations,Law Dispatch,Salt Lake County,3
+672,2a0,A,Dist. Attorney,Utah District Attorney,Law Talk,Utah State Misc,3
+704,2c0,A,SLC PD 2 East,Police 2 East,Law Dispatch,Salt Lake City,3
+736,2,A,SLC PD 1 West,Police 1 West,Law Dispatch,Salt Lake City,3
+832,340,A,SLC PD Service,Police Service,Law Talk,Salt Lake City,3
+960,3c0,A,SLC PD SWAT,Police SWAT,Law Talk,Salt Lake City,3
+1024,400,A,ADC Jail 1,Adult Detention Center 1,Corrections,Salt Lake County,3
+1152,480,A,UPD/SLCPD Link,Unified Police Salt Lake City Police APB Link,Law Tac,Salt Lake County,3
+1184,4a0,A,SLC Fire 1,Fire 1,Fire Dispatch,Salt Lake City,3
+1216,4c0,A,SLC Fire 2,Fire 2,Fire Dispatch,Salt Lake City,3
+1248,4,A,SLC Fire 3,Fire 3,Fire-Talk,Salt Lake City,3
+1504,5,A,ADC Jail 3,Adult Detention Center 3,Corrections,Salt Lake County,3
+1536,600,A,ADC Jail 4,Adult Detention Center 4,Corrections,Salt Lake County,3
+1568,620,A,ADC Jail 5,Adult Detention Center 5,Corrections,Salt Lake County,3
+1600,640,A,ADC Jail 6,Adult Detention Center 6,Corrections,Salt Lake County,3
+1632,660,A,ADC Jail 7,Adult Detention Center 7,Corrections,Salt Lake County,3
+1664,680,A,ADC Jail 8,Adult Detention Center 8,Corrections,Salt Lake County,3
+1696,6a0,A,ADC Jail 9,Adult Detention Center 9,Corrections,Salt Lake County,3
+1728,6c0,A,ADC Jail 10,Adult Detention Center 10,Corrections,Salt Lake County,3
+1760,6,A,ADC Jail 11,Adult Detention Center 11,Corrections,Salt Lake County,3
+1792,700,A,SLCo ACO 1,Animal Control 1,Public Works,Salt Lake County,3
+1824,720,A,SLCo MathesonCrt,Matheson Courthouse,Security,Salt Lake County,3
+1856,740,A,WJordan Court,Justice Court,Security,West Jordan,3
+1888,760,A,SLCo Event 1,Event 1,Public Works,Salt Lake County,3
+1920,780,A,SLCo Event 2,Event 2,Public Works,Salt Lake County,3
+1952,7a0,A,SLCo Event 3,Event 3,Public Works,Salt Lake County,3
+1984,7c0,A,SLCo Event 4,Event 4,Public Works,Salt Lake County,3
+2016,7,A,SLCo Event 5,Event 5  ,Public Works,Salt Lake County,3
+2048,800,A,SLCo Event 6,Event 6,Public Works,Salt Lake County,3
+2080,820,A,SLCo Event 7,Event 7,Public Works,Salt Lake County,3
+2112,840,A,SLCo Event 8,Event 8,Public Works,Salt Lake County,3
+2144,860,A,SLCo Event 9,Event 9,Public Works,Salt Lake County,3
+2176,880,A,SLCo Event 10,Event 10,Public Works,Salt Lake County,3
+2240,8c0,A,Castleview Hosp,Castleview,Hospital,Utah Hospitals,3
+2272,8,A,Riverton Hosp,Riverton Hospital,Hospital,Utah Hospitals,3
+2336,920,A,Layton Hosp,Layton Hospital,Hospital,Utah Hospitals,3
+2368,940,A,SpanishFork Hosp,Spanish Fork Hospital,Hospital,Utah County - Southern Cities,3
+2912,b60,A,SLSO 6 Admin,Sheriff 6 Admin/Investigation,Law Talk,Salt Lake County,3
+2944,b80,A,SLCo ACO 2,Animal Control 2,Public Works,Salt Lake County,3
+3008,bc0,A,SLSO Tactical,Sheriff Tactical,Law Tac,Salt Lake County,3
+3744,ea0,A,Sandy FD,Fire,Fire Dispatch,Sandy,3
+4096,1000,A,UCA Tech 100,System Testing 100,Business,Radio Technicians,3
+4128,1020,A,UCA Tech 102,System Testing 102,Business,Radio Technicians,3
+4160,1040,A,UCA Tech 104,System Testing 104,Business,Radio Technicians,3
+4352,1100,A,UHP North Car,Box Elder/Cache County Car/Car,Law Talk,Utah Highway Patrol,3
+4384,1120,A,UHP Weber Car,Weber County Car/Car,Law Talk,Utah Highway Patrol,3
+4416,1140,A,UHP Davis Car,Davis County Car/Car,Law Talk,Utah Highway Patrol,3
+4448,1160,A,UHP Car to Car,Statewide Car/Car,Law Talk,Utah Highway Patrol,3
+4512,11a0,A,UHP Utah Car,Utah County Car/Car  ,Law Talk,Utah Highway Patrol,3
+4544,11c0,A,UHP Sumt Car,Summit County Car/Car,Law Talk,Utah Highway Patrol,3
+4576,11,A,UHP Tooele Car,Tooele County Car/Car,Law Talk,Utah Highway Patrol,3
+4608,1200,A,UHP SpecOps 1,Special Operations 1,Law Talk,Utah Highway Patrol,3
+4640,1220,A,UHP SpecOps 2,Special Operations 2,Law Talk,Utah Highway Patrol,3
+4672,1240,A,UHP 18 Cap Sec,Capitol Security Dispatch  ,Law Dispatch,Utah Highway Patrol,3
+4736,1280,A,UHP 15 Inspect,Inspections  ,Law Talk,Utah Highway Patrol,3
+4768,12a0,A,UHP Inspec Car,Inspections Car/Car,Law Talk,Utah Highway Patrol,3
+4800,12c0,A,UHP Juab Car,Juab County Car/Car,Law Talk,Utah Highway Patrol,3
+4832,12,A,UHP 12 Car,Section 12 Car/Car  ,Law Talk,Utah Highway Patrol,3
+4864,1300,A,UMVA Enforce,Motor Vehicle Administration Enforcement,Law Talk,Utah Highway Patrol,3
+4896,1320,A,UMVA 25A 4,Motor Vehicle Administration 25A Ch 4,Law Talk,Utah Highway Patrol,3
+4928,1340,A,DOC Train 2,DOC Training Academy 2,Corrections,Utah Department of Corrections,3
+4960,1360,A,USCF Medical/Inf,USCF Medical/Infirmary,Corrections,Utah Department of Corrections,3
+5056,13c0,A,DOC Parole C,Adult Probation and Parole Car to Car,Corrections,Utah Department of Corrections,3
+5216,1460,A,DOC AdminCar,Administration car to car,Corrections,Utah Department of Corrections,3
+5600,15,A,Weber Fire 1,Fire 1 Dispatch  ,Fire Dispatch,Weber County,3
+5632,1600,A,Weber Fire 2,Fire 2 Medical Operations,Fire-Tac,Weber County,3
+5664,1620,A,Weber Fire 3,Fire 3 Fire Operations,Fire-Tac,Weber County,3
+5696,1640,A,Weber Fire Cmn,Fire Common,Fire-Talk,Weber County,3
+5728,1660,A,UHP 9 Car,Carbon County Car/Car  ,Law Talk,Utah Highway Patrol,3
+5792,16a0,A,UHP 11 Car,Section 11 Car/Car    ,Law Talk,Utah Highway Patrol,3
+5824,16c0,A,UHP 13 Grand Car,Grand County Car/Car  ,Law Talk,Utah Highway Patrol,3
+5888,1700,A,Weber SAR,Search and Rescue,Law Talk,Weber County,3
+5920,1720,A,Weber SO N,Sheriff North Dispatch,Law Dispatch,Weber County,3
+5984,1760,A,WSU PD Aux,Weber State University PD Auxilliary,Law Tac,Ogden,3
+6016,1780,A,Weber LE North,North Cities Law  ,Law Dispatch,Weber County,3
+6048,17a0,A,Weber Law 4,Roy/Riverdale/South Ogden Police Main,Law Dispatch,Weber County,3
+6080,17c0,A,Weber/Morgan Dsp,Weber/Morgan County Sheriff/UHP Dispatch,Law Dispatch,Weber County,3
+6112,17,A,Weber/Morgan Srv,Weber/Morgan County Sheriff/UHP Service,Law Talk,Weber County,3
+6144,1800,A,WSU PD Car,Weber State University PD Car/Car,Law Tac,Ogden,3
+6240,1860,A,Weber Health,Weber/Morgan Health Department,Public Works,Weber County,3
+6336,18c0,A,Weber LE 7,Law 7,Law Tac,Weber County,3
+6368,18,A,Weber LE 1,Law 1,Law Tac,Weber County,3
+6400,1900,A,Ogden PD Disp,Weber Law 2 Ogden Police Dispatch,Law Dispatch,Ogden,3
+6432,1920,A,Ogden PD 5,Police 5,Law Talk,Ogden,3
+6560,19a0,A,DOC Parole 1,Adult Probation and Parole 1,Corrections,Utah Department of Corrections,3
+6720,1a40,A,DOC Bonnevil,Bonneville Community Correctional Center,Corrections,Utah Department of Corrections,3
+6752,1a60,A,DOC OrangeSt,Orange Street Community Correctional Center,Corrections,Utah Department of Corrections,3
+6784,1a80,A,DOC Fremont,Fremont Community Center,Corrections,Utah Department of Corrections,3
+6816,1aa0,A,DOC LEB Inv,LEB Investigations,Corrections,Utah Department of Corrections,3
+6848,1ac0,A,DOC Train 1,DOC Training Academy 1,Corrections,Utah Department of Corrections,3
+6912,1b00,A,DOC Admin,DOC Admin/Scheduling,Corrections,Utah Department of Corrections,3
+6976,1b40,A,USCF Maintenance,USCF Maintenance,Corrections,Utah Department of Corrections,3
+7040,1b80,A,DOC Parole 2,Adult Probation and Parole 2,Corrections,Utah Department of Corrections,3
+7072,1ba0,A,USCF Rovers,USCF Rovers,Corrections,Utah Department of Corrections,3
+7104,1bc0,A,DOC IT Techs,DOC IT Techs,Corrections,Utah Department of Corrections,3
+7136,1be0,A,USCF Security 1,USCF Security 1,Security,Utah Department of Corrections,3
+7200,1c20,A,DOC Oquirrhs,Oquirrhs,Corrections,Utah Department of Corrections,3
+7232,1c40,A,DOC Wasatch,Wasatch/Infirmary  ,Corrections,Utah Department of Corrections,3
+7264,1c60,A,DOC Uinta 3,Unita 3/5 Maximum - Orientation / Receiving,Corrections,Utah Department of Corrections,3
+7296,1c80,A,DOC Uinta 1,Unita 1/2/4 Maximum - Death Row / Gangs etc.,Corrections,Utah Department of Corrections,3
+7328,1ca0,A,DOC Olympus,Olympus Mental Unit,Corrections,Utah Department of Corrections,3
+7360,1cc0,A,DOC TimpStar,Timp / Star Woman Units,Corrections,Utah Department of Corrections,3
+7392,1ce0,A,DOC LonePeak,Lone Peak,Corrections,Utah Department of Corrections,3
+7424,1d00,A,DOC Promontr,Promontory,Corrections,Utah Department of Corrections,3
+7520,1d60,A,USCF Security 2,USCF Security 2,Security,Utah Department of Corrections,3
+7552,1d80,A,DOC Parole SL,DOC Parole SL,Corrections,Utah Department of Corrections,3
+7680,1,A,Weber Ops 1,County Operations 1,Multi-Talk,Weber County,3
+7712,1.00E+20,A,Weber Ops 2,County Operations 2,Multi-Talk,Weber County,3
+7744,1.00E+40,A,Weber Ops 3,County Operations 3,Multi-Talk,Weber County,3
+7776,1.00E+60,A,Weber Ops 4,County Operations 4,Multi-Talk,Weber County,3
+7808,1.00E+80,A,Weber Ops 5,County Operations 5,Multi-Talk,Weber County,3
+7840,1ea0,A,Weber Ops 6,County Operations 6,Multi-Talk,Weber County,3
+7872,1ec0,A,Weber Ops 7,County Operations 7,Multi-Talk,Weber County,3
+7904,1ee0,A,Weber Ops 8,County Operations 8,Multi-Talk,Weber County,3
+7936,1f00,A,Weber Ops 9,County Operations 9,Multi-Talk,Weber County,3
+7968,1f20,A,Weber Ops 10,County Operations 10,Multi-Talk,Weber County,3
+8224,2020,A,Weber Jail 8224,Jail  ,Corrections,Weber County,3
+8256,2040,A,Bount PW 1,Bountiful Public Works,Public Works,Bountiful,3
+8352,20a0,A,Bount PW Str,Bountiful Public Works Streets,Public Works,Bountiful,3
+8416,20,A,Bountif PW 2,Bountiful Public Works,Public Works,Bountiful,3
+8448,2100,A,Bount PD 2,Bountiful Police 2,Law Talk,Bountiful,3
+8480,2120,A,SDMFA 3 Car,South Davis Metro Fire Agency 3 Car to Car,Fire-Talk,Davis County,3
+8512,2140,A,SDMFA 1 Disp,South Davis Metro Fire Agency 1 Dispatch,Fire Dispatch,Davis County,3
+8544,2160,A,Bount PD 1,Bountiful Police 1,Law Dispatch,Bountiful,3
+8576,2180,A,Bount PD 3 C,Bountiful Police 3 Car to Car,Law Talk,Bountiful,3
+8608,21a0,A,Centerv PD 2,Centerville Police 2,Law Dispatch,Davis County - Other Cities,3
+8640,21c0,A,Centerv PD C,Centerville Police Car to Car,Law Talk,Davis County - Other Cities,3
+8672,21,A,Centerv PW,Centerville Public Works,Public Works,Davis County - Other Cities,3
+8736,2220,A,Clearfd PD 3,Clearfield Police 3 Car to Car,Law Talk,Davis County - Other Cities,3
+8800,2260,A,NoDavis FD/E,North Davis Fire/EMS,Fire Dispatch,Davis County,3
+8832,2280,A,NoDavis FD 2,North Davis Fire 2,Fire Dispatch,Davis County,3
+8864,22a0,A,NoDavis FD 1,North Davis Fire 1  ,Fire Dispatch,Davis County,3
+8992,2320,A,Clearfd PD 1,Clearfield Police 1,Law Dispatch,Davis County - Other Cities,3
+9024,2340,A,Clearfd PW,Clearfield Public Works,Public Works,Davis County - Other Cities,3
+9152,23c0,A,Clearfd SpOp,Clearfield Special Ops,Multi-Talk,Davis County - Other Cities,3
+9216,2400,A,ClintonPoCar,Clinton Police Car to Car,Law Talk,Davis County - Other Cities,3
+9280,2440,A,Davis Emerg,Emergency Management,Emergency Ops,Davis County,3
+9312,2460,A,Davis SO F4,Sheriff F4 Civil Court,Law Talk,Davis County,3
+9344,2480,A,Davis Animal,Animal Control,Law Talk,Davis County,3
+9376,24a0,A,Davis 5 Car,Channel 5  Car to Car,Law Talk,Davis County,3
+9408,24c0,A,Davis Law 1,Law 1,Law Dispatch,Davis County,3
+9440,24,A,Davis Law 2,Law 2/UHP,Law Dispatch,Davis County,3
+9472,2500,A,Davis Emerg,Emergency Management,Law Talk,Davis County,3
+9504,2520,A,Davis FD/EMS,Fire/EMS F3,Fire Dispatch,Davis County,3
+9536,2540,A,Davis Disast,Disaster Command,Emergency Ops,Davis County,3
+9568,2560,A,Davis SO 1,Sheriff,Law Talk,Davis County,3
+9600,2580,A,Davis FD 1,Fire 1,Fire Dispatch,Davis County,3
+9632,25a0,A,Davis FD 2,Fire 2,Fire Dispatch,Davis County,3
+9664,25c0,A,Davis FD Com,Fire Common,Fire-Talk,Davis County,3
+9696,25,A,Davis Jail,Sheriff Jail Operationss,Corrections,Davis County,3
+9728,2600,A,Davis PS Com,Public Safety Common,Law Talk,Davis County,3
+9760,2620,A,Davis PW,Public Works,Public Works,Davis County,3
+9824,2660,A,Davis SpecOp,Sheriff Special Operations,Law Talk,Davis County,3
+9856,2680,A,Davis SAR,Search and Rescue,Law Talk,Davis County,3
+9920,26c0,A,Davis School,School Security,Schools,Davis County,3
+9952,26,A,Davis Service,Service,Multi-Talk,Davis County,3
+9984,2700,A,Farming Car,Farmington Police F5 Car to Car,Law Talk,Davis County - Other Cities,3
+10016,2720,A,Farming PD 2,Farmington Police 2,Law Dispatch,Davis County - Other Cities,3
+10048,2740,A,Farming PW,Farmington Public Works,Public Works,Davis County - Other Cities,3
+10112,2780,A,Gt StLake SAR,Great Salt Lake Search & Rescue,Emergency Ops,Salt Lake County,3
+10176,27c0,A,Kaysville PD,Kaysville Police Car to Car,Law Talk,Davis County - Other Cities,3
+10272,2820,A,Kaysville FD,Kaysville Fire F4,Fire Dispatch,Davis County - Other Cities,3
+10368,2880,A,Layton EMS,Layton Fire/EMS,Fire Dispatch,Layton,3
+10400,28a0,A,Layton FD 1,Layton Fire 1,Fire Dispatch,Layton,3
+10464,28,A,Layton PD 2,Layton Police 2,Law Dispatch,Layton,3
+10496,2900,A,Layton PD T,Layon Police Tactical,Law Tac,Layton,3
+10528,2920,A,Layton PD 1,Layton Police 1,Law Dispatch,Layton,3
+10560,2940,A,Layton PW,Layton Public Works,Public Works,Layton,3
+10592,2960,A,NoSL PD Car,North Salt Lake Police Car to Car,Law Talk,Davis County - Other Cities,3
+10624,2980,A,NoSL PW,North Salt Lake Public Works,Public Works,Davis County - Other Cities,3
+10656,29a0,A,Davis FD Ops 11,Fire Ops 11 - North Davis Fire District  ,EMS-Talk,Davis County,3
+10688,29c0,A,Davis FD Ops 2,Fire Operations 2,EMS-Talk,Davis County,3
+10720,29,A,Davis SO Train,Sheriff Training,Law Talk,Davis County,3
+10752,2a00,A,Davis FD Ops 3,Fire Operations 3,EMS-Talk,Davis County,3
+10784,2a20,A,Davis FD Ops 4,Fire Operations 4,EMS-Talk,Davis County,3
+10816,2a40,A,Davis FD Ops 5,Fire Ops 5 - South Davis Metro Fire  ,EMS-Talk,Davis County,3
+10848,2a60,A,Davis FD Ops 6,Fire Ops 6 - South Davis Metro Fire  ,EMS-Talk,Davis County,3
+10880,2a80,A,Davis FD Ops 7,Fire Ops 7 - South Davis Metro Fire  ,EMS-Talk,Davis County,3
+10912,2aa0,A,Davis FD Ops 8,Fire Ops 8 - Layton Fire,EMS-Talk,Davis County,3
+10944,2ac0,A,Davis FD Ops 9,Fire Ops 9 - Layton Fire,EMS-Talk,Davis County,3
+10976,2ae0,A,Davis FD Ops 10,Fire Ops 10 - Layton Fire,EMS-Talk,Davis County,3
+11008,2b00,A,Davis FD Ops 12,Fire Ops 12 - North Davis Fire District  ,EMS-Talk,Davis County,3
+11040,2b20,A,Davis FD Ops 13,Fire Ops 13 - North Davis Fire District  ,EMS-Talk,Davis County,3
+11072,2b40,A,SoWeber FD,South Weber Fire,Fire Dispatch,Davis County - Other Cities,3
+11104,2b60,A,SoWeber FD11,South Weber Fire 11,Fire Dispatch,Davis County - Other Cities,3
+11136,2b80,A,Sunset PDCar,Sunset Police Car to Car,Law Talk,Davis County - Other Cities,3
+11200,2bc0,A,Syracuse FD,Syracuse Fire,Fire Dispatch,Davis County - Other Cities,3
+11232,2be0,A,Syracuse PD1,Syracuse Police Car to Car 1,Law Talk,Davis County - Other Cities,3
+11264,2c00,A,Syracuse PD2,Syracuse Police Car to Car 2,Law Talk,Davis County - Other Cities,3
+11296,2c20,A,WBount PDCar,West Bountiful Police Car to Car,Law Talk,Davis County - Other Cities,3
+11328,2c40,A,WBount PD F3,West Bountiful Police F3,Law Dispatch,Davis County - Other Cities,3
+11360,2c60,A,WBount PW,West Bountiful Public Works,Public Works,Davis County - Other Cities,3
+11392,2c80,A,WoodCr PDCar,Woods Cross Police Car to Car,Law Talk,Davis County - Other Cities,3
+11424,2ca0,A,WoodCr PW,Woods Cross Public Works,Public Works,Davis County - Other Cities,3
+11488,2ce0,A,FarmingtonFD,Farmington Fire,Fire Dispatch,Davis County - Other Cities,3
+11552,2d20,A,SDMFA 2 FG,South Davis Metro Fire Agency 2 Fireground,Fire Dispatch,Davis County,3
+11584,2d40,A,Davis FD RIT,Fire Rapid Intervention Team,Fire-Tac,Davis County,3
+11616,2d60,A,Layton FD 2,Layton Fire 2,Fire Dispatch,Layton,3
+11648,2d80,A,Clinton FD,Clinton Fire F4,Fire Dispatch,Davis County - Other Cities,3
+11680,2da0,A,Sunset FD,Sunset Fire,Fire Dispatch,Davis County - Other Cities,3
+11776,2,A,Davis 6 Car,County 6 Car to Car 2,Law Talk,Davis County,3
+11808,2.00E+20,A,Davis Ops,County Operations,Law Talk,Davis County,3
+11840,2.00E+40,A,Davis Court,Court Security,Security,Davis County,3
+11872,2.00E+60,A,Bount SpecOp,Bountiful Special Operations,Law Tac,Bountiful,3
+11904,2.00E+80,A,Davis SO 2,County Sheriff,Law Dispatch,Davis County,3
+11936,2ea0,A,Weber LE SpcOps,Special Operations,Law Tac,Weber County,3
+11968,2ec0,A,UHP SpecOps 3,Special Operations 3,Law Talk,Utah Highway Patrol,3
+12000,2ee0,A,Davis County,County,Multi-Dispatch,Davis County,3
+12032,2f00,A,Weber LE Strike,Strike Force,Law Tac,Weber County,3
+12064,2f20,A,Weber LE N Car,Cities Police North Car/Car,Law Talk,Weber County,3
+12096,2f40,A,Weber LE S Car,Cities Police South Car/Car,Law Talk,Weber County,3
+12288,3000,A,Weber SO Car/Car,Sheriff Car/Car,Law Tac,Weber County,3
+12320,3020,A,Ogden Tac 1,Special Training Tactical 1,Law Tac,Ogden,3
+12384,3060,D,AVL Data Layton,Automatic Vehicle Locator Data  ,Data,Davis County,3
+12416,3080,D,AVL Data,Automatic Vehicle Locator Data,Data,Davis County,3
+12544,3100,A,Weber Fire C/C,Fire Car/Car,Fire-Talk,Weber County,3
+12576,3120,A,Weber Roads,Public Works 1 Roads,Public Works,Weber County,3
+12640,3160,A,Weber Plows,Public Works 3 Snow Plows,Public Works,Weber County,3
+12672,3180,A,Weber ACO,Animal Control,Public Works,Weber County,3
+12736,31c0,A,Ogden DPW 3,Public Works 3,Public Works,Ogden,3
+12768,31,A,Ogden Airprt,Airport,Public Works,Ogden,3
+12832,3220,A,Ogden Rec,Recreation,Public Works,Ogden,3
+12864,3240,A,Ogden Fleet,Fleet,Public Works,Ogden,3
+12896,3260,A,Ogden Animal,Animal Control,Public Works,Ogden,3
+12960,32a0,A,Ogden Street,Streets,Public Works,Ogden,3
+12992,32c0,A,Ogden Sanitn,Sanitation,Public Works,Ogden,3
+13024,32,A,Ogden Sewer,Sewer,Public Works,Ogden,3
+13056,3300,A,Ogden Water,Water,Public Works,Ogden,3
+13088,3320,A,Ogden DPW 1,Public Works 1,Public Works,Ogden,3
+13120,3340,A,Ogden DPW 2,Public Works 2,Public Works,Ogden,3
+13152,3360,A,Roy PD Car,Police Car/Car,Law Talk,Roy,3
+13184,3380,A,Roy FD Car,Fire Car/Car,Fire-Talk,Roy,3
+13312,3400,A,Mantua PD Car,Mantua Police Car to Car,Law Talk,Box Elder County,3
+13344,3420,A,Riverdale PD Car,Police Car/Car,Law Talk,Riverdale,3
+13408,3460,A,Riverdale FD Car,Fire Car/Car,Fire-Talk,Riverdale,3
+13760,35c0,A,WashTer FD Car,Fire/Rescue Car/Car,Fire-Talk,Washington Terrace,3
+13824,3600,A,Weber Fire 4,Fire 4,Fire-Talk,Weber County,3
+13856,3620,A,Weber Fire 5,Fire 5,Fire-Talk,Weber County,3
+13888,3640,A,Weber Fire 6,Fire 6,Fire-Talk,Weber County,3
+13920,3660,A,S Ogden PD Car 2,Police Car/Car 2,Law Talk,South Ogden,3
+13952,3680,A,S Ogden FD Car,Fire Car/Car,Fire-Talk,South Ogden,3
+14112,3720,A,Harrisville PD C,Police Car/Car,Law Talk,Harrisville,3
+14144,3740,A,PlainCity FD Car,Fire Car/Car,Fire-Talk,Plain City,3
+14240,37a0,A,Juab Fire 1,Juab County Fire 1,Fire Dispatch,Juab County,3
+14304,37,A,N Ogden PD Car,Police Car/Car,Law Talk,North Ogden,3
+14400,3840,A,Sanpete Law 1,Law 1  ,Law Dispatch,Sanpete County,3
+14432,3860,A,Sanpete Law 2,Law 2,Law Talk,Sanpete County,3
+14496,38a0,A,PlesView PD Car,Police Car/Car,Law Talk,Pleasant View,3
+14528,38c0,A,Northview FD Car,Northview Fire Car/Car,Fire-Talk,Ogden,3
+14592,3900,A,Sanpete EMS,EMS  ,EMS Dispatch,Sanpete County,3
+14720,3980,A,Unitah FD Car,Fire Car/Car,Fire-Talk,Uintah,3
+14784,39c0,A,Juab Law 2 Car,Juab County Sheriff Car to Car,Law Talk,Juab County,3
+14816,39,A,Millard Law 1,Millard Law  ,Law Dispatch,Millard County,3
+14880,3a20,A,Juab Law 1,Juab County Law 1,Law Dispatch,Juab County,3
+15040,3ac0,A,Weber Jail 12,Jail 12th Street,Corrections,Weber County,3
+15072,3ae0,A,Weber Jail 15072,Jail  ,Corrections,Weber County,3
+15360,3c00,A,Air Med Utah,Air Medical Utah,EMS-Talk,Utah Air Medical,3
+15520,3ca0,A,Morgan SOCar,Morgan County Sheriff Car to Car 5,Law Talk,Morgan County,3
+15552,3cc0,A,Morgan Fire,Morgan County Fire/EMS Car to Car,Fire-Talk,Morgan County,3
+15648,3d20,A,MtGreen Fire,Mountain Green Fire Car to Car,Fire-Talk,Morgan County,3
+15680,3d40,A,BoxElder SO,Sheriff,Law Dispatch,Box Elder County,3
+15872,3,A,BrigCity PD,Brigham City Police,Law Dispatch,Box Elder County,3
+16000,3.00E+80,A,Cache Law 1,Cache County Law 1  ,Law Dispatch,Cache County,3
+16032,3ea0,A,Cache ComCar,Cache County Common Car to Car,Multi-Talk,Cache County,3
+16064,3ec0,A,Rich SO 1,Rich County Sheriff 1,Law Dispatch,Rich County,3
+16128,3f00,A,Dixie Hosp,Dixie Region Medical center,Hospital,Utah Hospitals,3
+16160,3f20,A,Cedar City Hosp,Cedar City,Hospital,Utah Hospitals,3
+16192,3f40,A,Brigham Hosp,Brigham City Hospital,Hospital,Utah Hospitals,3
+16224,3f60,A,Cache Val Hosp,Cache Valley Hospital,Hospital,Utah Hospitals,3
+16288,3fa0,A,Sevier Hosp,Sevier Hospital,Hospital,Utah Hospitals,3
+16320,3fc0,A,Park City Hosp,Park City Hospital,Hospital,Park City,3
+16352,3fe0,A,Lone Peak Hosp,Lone Peak hospital,Hospital,Utah Hospitals,3
+16416,4020,A,Logan Reg Hosp,Logan Regional Hospital,Hospital,Utah Hospitals,3
+16448,4040,A,McKay Dee Hosp,McKay Dee Hospital,Hospital,Utah Hospitals,3
+16480,4060,A,Ogden Reg Hosp 1,Ogden Regional Hospital 1,Hospital,Ogden,3
+16512,4080,A,Davis Hosp,Davis Hospital,Hospital,Utah Hospitals,3
+16544,40a0,A,Lakeview Hosp,Lakeview Hospital,Hospital,Utah Hospitals,3
+16576,40c0,A,LDS Hospital,LDS Hospital,Hospital,Utah Hospitals,3
+16608,40,A,UofU Med Ctr,University of Utah Medical Center,Hospital,Utah Hospitals,3
+16640,4100,A,Salt Lake Hosp,Salt Lake Regional Hospital,Hospital,Utah Hospitals,3
+16672,4120,A,Prim Child Hosp,Primary Childrens Hospital,Hospital,Utah Hospitals,3
+16704,4140,A,SLC VA Hosp,Veterans Administration Hospital,Hospital,Utah Hospitals,3
+16736,4160,A,Orthopodic Hosp,The Orthopedic Specialty Hospital,Hospital,Utah Hospitals,3
+16768,4180,A,St.Marks Hosp,St. Marks Hospital,Hospital,Utah Hospitals,3
+16800,41a0,A,Jordan Val Hosp,Jordan Valley Hospital,Hospital,Utah Hospitals,3
+16832,41c0,A,Altaview Hosp,Altaview Hospital,Hospital,Utah Hospitals,3
+16864,41,A,Pioneer Hosp,Pioneer Valley Hospital,Hospital,Utah Hospitals,3
+16896,4200,A,IMED Hosp,Intermountain Medical Center  ,Hospital,Utah Hospitals,3
+16928,4220,A,Tooele Hosp,Tooele Valley Hospital,Hospital,Utah Hospitals,3
+16960,4240,A,Heber Valley Hos,Heber Valley,Hospital,Utah Hospitals,3
+16992,4260,A,AmerFork Hosp,American Fork Hospital,Hospital,American Fork,3
+17024,4280,A,Orem Hospital,Orem Community Hospital,Hospital,Orem,3
+17056,42a0,A,Timpanog Hosp,Timpanogos Hospital,Hospital,Utah County,3
+17088,42c0,A,Utah Val Hosp,Utah Valley Hospital,Hospital,Utah County,3
+17120,42,A,Mtn View Hosp,Mtn View Hospital,Hospital,Utah Hospitals,3
+17152,4300,A,UT Hospitals Com,Hospitals Common,Hospital,Utah Hospitals,3
+17184,4320,A,Air Med LZ-1,Air Medical 1  ,EMS-Talk,Utah Air Medical,3
+17216,4340,A,Air Med LZ-2,Air Medical 2  ,EMS-Talk,Utah Air Medical,3
+17248,4360,A,Air Med Disp,Air Medical Helicopter Dispatch,EMS Dispatch,Utah Air Medical,3
+17280,4380,A,LifeFlit Ops,Life Flight Operations,EMS-Talk,Utah Air Medical,3
+17312,43a0,A,Air Common 1,Air Common 1,EMS-Talk,Utah Air Medical,3
+17344,43c0,A,DNR Fire,DNR Fire,Fire Dispatch,Utah Department of Natural Resources,3
+17376,43,A,UHP SWAT 1,SWAT 1,Law Tac,Utah Highway Patrol,3
+17408,4400,A,UHP SWAT 2,SWAT 2,Law Tac,Utah Highway Patrol,3
+17440,4420,A,UHP SWAT 3,SWAT 3,Law Tac,Utah Highway Patrol,3
+17472,4440,A,UHP SWAT 4,SWAT 4,Law Tac,Utah Highway Patrol,3
+17504,4460,A,Classic Air,Classic Air Medical Helicopter  ,EMS-Talk,Utah Air Medical,3
+17536,4480,A,UT Pub Safety,Utah Dept. of Public Safety,Law Talk,Utah Highway Patrol,3
+17600,44c0,A,SE Region,Southeast: Carbon - Grand - San Juan - Emery,Interop,Interoperability,3
+17632,44,A,NE Region,Northeast: Summit - Wasatch - Daggett - Uintah - Duchesne,Interop,Interoperability,3
+17664,4500,A,SW Region,Southwest: Juab - Millard - Beaver - Iron - Washington,Interop,Interoperability,3
+17696,4520,A,Central Region,Central: Utah - Wayne - Garfield - Sanpete - Sevier - Piute - Kane,Interop,Interoperability,3
+17728,4540,A,NW Region,Northwest: Davis - Weber - Morgan - Cache - Box Elder - Rich,Interop,Interoperability,3
+17760,4560,A,SLC Region,Salt Lake: Salt Lake - Tooele,Interop,Interoperability,3
+17792,4580,A,DNR ParksTac,DNR Parks Tactical,Law Tac,Utah Department of Natural Resources,3
+17824,45a0,A,DNR Tac 1,DNR Tactical 1,Law Tac,Utah Department of Natural Resources,3
+17856,45c0,A,DNR Parks S,DNR Parks South,Public Works,Utah Department of Natural Resources,3
+17888,45,A,DNR Parks N,DNR Parks North,Public Works,Utah Department of Natural Resources,3
+17952,4620,A,DNR Car N,DNR Wildlife North Car to Car,Law Talk,Utah Department of Natural Resources,3
+17984,4640,A,DNR Fire So,DNR State Fire South,Fire Dispatch,Utah Department of Natural Resources,3
+18016,4660,A,DNR Fire No,DNR State Fire North,Fire Dispatch,Utah Department of Natural Resources,3
+18048,4680,A,DNR Main,DNR Main,Public Works,Utah Department of Natural Resources,3
+18080,46a0,A,DNR Antelope,DNR Antelope Island,Multi-Dispatch,Utah Department of Natural Resources,3
+18112,46c0,A,Emerg Manage 1,Utah State Emergency Management 1,Emergency Ops,Utah State Misc,3
+18176,4700,A,RgCtrMaint1A,Regional Center Maintenance 1-A,Public Works,Utah State Maintenance,3
+18208,4720,A,CapitMaint1B,Capitol Maintenance 1-B,Public Works,Utah State Maintenance,3
+18240,4740,A,CourtMaint1C,Courthouse Maintenance 1-C,Public Works,Utah State Maintenance,3
+18272,4760,A,CapitMaint1D,Capitol Maintenance 1-D,Public Works,Utah State Maintenance,3
+18304,4780,A,CapitMaint1E,Capitol Maintenance 1-E,Public Works,Utah State Maintenance,3
+18336,47a0,A,StBldMaint1F,State Building Maintenance 1-F,Public Works,Utah State Maintenance,3
+18368,47c0,A,UHP Vernal,Vernal,Law Dispatch,Utah Highway Patrol,3
+18400,47,A,UHP Duchesne,Duchesne County,Law Dispatch,Utah Highway Patrol,3
+18432,4800,A,Event 1 Weber,Event 1 Weber/Morgan Counties,Interop,Utah Events,3
+18464,4820,A,Event 2 Davis,Event 2 Davis County,Interop,Utah Events,3
+18496,4840,A,Event 3 SLCo,Event 3 Salt Lake County,Interop,Utah Events,3
+18528,4860,A,Event4 S ummit,Event 4 Summit County,Interop,Utah Events,3
+18560,4880,A,Event 5 Wasat,Event 5 Wasatch County,Interop,Utah Events,3
+18592,48a0,A,Event 6 UtahCo,Event 6 Utah County,Interop,Utah Events,3
+18624,48c0,A,Event 7 Tooele,Event 7 Tooele County,Interop,Utah Events,3
+18656,48,A,Event 8,Event 8,Interop,Utah Events,3
+18688,4900,A,Event 9,Event 9,Interop,Utah Events,3
+18720,4920,A,Event 10 Sanpete,Event 10 Sanpete County,Interop,Utah Events,3
+18752,4940,A,Event 11,Event 11,Interop,Utah Events,3
+18784,4960,A,Event 12,Event 12,Interop,Utah Events,3
+18816,4980,A,Event 13,Event 13,Interop,Utah Events,3
+18848,49a0,A,Event 14,Event 14,Interop,Utah Events,3
+18880,49c0,A,Event 15,Event 15,Interop,Utah Events,3
+18912,49,A,Event 16,Event 16,Interop,Utah Events,3
+18944,4a00,A,UDOT R-1 Disp,Region 1 Dispatch,Public Works,Utah Department of Transportation,3
+18976,4a20,A,UDOT R-1 Annc,Region 1 Announcements,Public Works,Utah Department of Transportation,3
+19040,4a60,A,UDOT ParleysC,Parleys Canyon 234 1B,Public Works,Utah Department of Transportation,3
+19072,4a80,A,UDOT SlvSumit,Silver Summit 235 1C,Public Works,Utah Department of Transportation,3
+19104,4aa0,A,UDOT Wanship,Wanship 236 1D,Public Works,Utah Department of Transportation,3
+19136,4ac0,A,UDOT Kamas,Kamas 237 1E,Public Works,Utah Department of Transportation,3
+19168,4ae0,A,UDOT Echo,Echo 238 1F,Public Works,Utah Department of Transportation,3
+19200,4b00,A,UDOT R-2 Mech,Region 2 Mechanics,Public Works,Utah Department of Transportation,3
+19232,4b20,A,UDOT SLC East,SLC East 225 2B,Public Works,Utah Department of Transportation,3
+19264,4b40,A,UDOT Centervl,Centerville 226 2C,Public Works,Utah Department of Transportation,3
+19296,4b60,A,UDOT SLC Nort,SLC North 230 2D,Public Works,Utah Department of Transportation,3
+19328,4b80,A,UDOT Cottonwd,Cottonwood 233 2E,Public Works,Utah Department of Transportation,3
+19360,4ba0,A,UDOT Draper,Draper 227 3B,Public Works,Utah Department of Transportation,3
+19392,4bc0,A,UDOT Murray,Murray 232 3C,Public Works,Utah Department of Transportation,3
+19424,4be0,A,UDOT WsJordan,West Jordan 231 3D,Public Works,Utah Department of Transportation,3
+19456,4c00,A,UDOT R-2 Sign,Region 2 Sign Crew 244,Public Works,Utah Department of Transportation,3
+19520,4c40,A,UDOT R-2 Pain,Region 2 Paint Crew 243,Public Works,Utah Department of Transportation,3
+19552,4c60,A,UDOT Wendover,Wendover 221 4B,Public Works,Utah Department of Transportation,3
+19584,4c80,A,UDOT Grantsvl,Grantsville 222 4C,Public Works,Utah Department of Transportation,3
+19616,4ca0,A,UDOT Tooele,Tooele 223 4D,Public Works,Utah Department of Transportation,3
+19648,4cc0,A,UDOT WsValley,West Valley 224 4E,Public Works,Utah Department of Transportation,3
+19680,4ce0,A,UDOT R-2 Land,Region 2 Landscaping 245 ,Public Works,Utah Department of Transportation,3
+19712,4d00,A,UHP SLCo Disp,Salt Lake County,Law Dispatch,Utah Highway Patrol,3
+19744,4d20,A,UHP Utah Disp,Utah County South Linked to 151.085,Law Dispatch,Utah Highway Patrol,3
+19776,4d40,A,UHP SL Co Serv,UHP 4 Salt Lake County Service,Law Talk,Utah Highway Patrol,3
+19808,4d60,A,UDOT Clearfie,Clearfield 124 6D,Public Works,Utah Department of Transportation,3
+19840,4d80,A,UDOT Clinton,Clinton 121 6A,Public Works,Utah Department of Transportation,3
+19872,4da0,A,UDOT OgdenWbr,Ogden/Weber A162 122 6B,Public Works,Utah Department of Transportation,3
+19904,4dc0,A,UDOT BrigCity,Brigham City 123 6C,Public Works,Utah Department of Transportation,3
+19936,4de0,A,UDOT Huntsvil,Huntsville 125 6E,Public Works,Utah Department of Transportation,3
+19968,4,A,UDOT Morgan,Morgan 126 6F,Public Works,Utah Department of Transportation,3
+20000,4.00E+20,A,UDOT Snowvill,Snowville 131 6G,Public Works,Utah Department of Transportation,3
+20032,4.00E+40,A,UDOT Bothwell,Bothwell 132 6H,Public Works,Utah Department of Transportation,3
+20064,4.00E+60,A,UDOT Riversid,Riverside 133 6I,Public Works,Utah Department of Transportation,3
+20096,4.00E+80,A,UDOT Wellsvil,Wellsville 135 6J,Public Works,Utah Department of Transportation,3
+20128,4ea0,A,UDOT Logan,Logan 136 6K,Public Works,Utah Department of Transportation,3
+20160,4ec0,A,UDOT Laketown,Laketown 137 6L,Public Works,Utah Department of Transportation,3
+20192,4ee0,A,UDOT R-1 Sign,Region 1 Signs and Paint Crew 143,Public Works,Utah Department of Transportation,3
+20224,4f00,A,UDOT LoganSmt,Logan Summit 145 6N,Public Works,Utah Department of Transportation,3
+20256,4f20,A,UDOT Sig Main,Signal Main,Public Works,Utah Department of Transportation,3
+20288,4f40,A,UDOT R-1 Plow,Region 1 Snowplows / Paving,Public Works,Utah Department of Transportation,3
+20352,4f80,A,UDOT R-1 Cons,Region 1 Construction,Public Works,Utah Department of Transportation,3
+20416,4fc0,A,UDOT Avalanch,Avalanche Control,Public Works,Utah Department of Transportation,3
+20480,5000,A,UDOT R-2 Cons,Region 2 Construction 8F,Public Works,Utah Department of Transportation,3
+20576,5060,A,UDOT R-3 Disp,Region 3 Dispatch,Public Works,Utah Department of Transportation,3
+20640,50a0,A,UDOT R-2 Disp,Region 2 Dispatch,Public Works,Utah Department of Transportation,3
+20800,5140,A,VECC Ops 1,VECC Ops 1,Multi-Tac,Salt Lake County,3
+20832,5160,A,VECC Ops 2,VECC Ops 2,Multi-Tac,Salt Lake County,3
+20864,5180,A,VECC Ops 3,VECC Ops 3,Multi-Tac,Salt Lake County,3
+20896,51a0,A,VECC Ops 4,VECC Ops 4,Multi-Tac,Salt Lake County,3
+20928,51c0,A,VECC Ops 5,VECC Ops 5,Multi-Tac,Salt Lake County,3
+20960,51,A,VECC Ops 6,VECC Ops 6,Multi-Tac,Salt Lake County,3
+20992,5200,A,VECC Ops 7,VECC Ops 7,Multi-Tac,Salt Lake County,3
+21024,5220,A,VECC Ops 8,VECC Ops 8,Multi-Tac,Salt Lake County,3
+21056,5240,A,VECC Ops 9 LE,VECC Ops 9 LE,Law Tac,Salt Lake County,3
+21088,5260,A,VECC Ops 10,VECC Ops 10,Multi-Tac,Salt Lake County,3
+21120,5280,A,SLCo EOC 1,Emergency Operations Center 1,Emergency Ops,Salt Lake County,3
+21152,52a0,A,VECC RIT,VECC Rapid Intervention Team,Fire-Tac,Salt Lake County,3
+21184,52c0,A,SLCo EOC 2,Emergency Operations Center 2,Emergency Ops,Salt Lake County,3
+21216,52,A,VECC FD/EMS 1,VECC Fire/EMS 1 Dispatch,Fire Dispatch,Salt Lake County,3
+21248,5300,A,VECC FD/EMS 2,VECC Fire/EMS 2,Fire-Tac,Salt Lake County,3
+21280,5320,A,VECC FD/EMS 3,VECC Fire/EMS 3,Fire-Tac,Salt Lake County,3
+21312,5340,A,VECC FD/EMS 4,VECC Fire/EMS 4,Fire-Tac,Salt Lake County,3
+21344,5360,A,VECC FD/EMS 5,VECC Fire/EMS 5,Fire-Tac,Salt Lake County,3
+21376,5380,A,UFA Tac 7,Unified Fire Authority Tactical 7,Fire-Tac,Salt Lake County,3
+21408,53a0,A,UFA Tac 8,Unified Fire Authority Tactical 8,Fire-Tac,Salt Lake County,3
+21440,53c0,A,UFA Tac 9,Unified Fire Authority Tactical 9,Fire-Tac,Salt Lake County,3
+21472,53,A,VECC PD Car1,VECC Law Enforcement Car/Car 1,Law Tac,Salt Lake County,3
+21504,5400,A,VECC PD Car2,VECC Law Enforcement Car/Car 2,Law Tac,Salt Lake County,3
+21536,5420,A,SLCo Emergency,Emergency Channel,Emergency Ops,Salt Lake County,3
+21600,5460,A,SSaltLake PD Spc,Police Special Operations,Law Tac,South Salt Lake,3
+21632,5480,A,WJordan SWAT,Police SWAT,Law Tac,West Jordan,3
+21664,54a0,A,VECC FD/EMS 6,VECC Fire/EMS 6,Fire-Tac,Salt Lake County,3
+21696,54c0,A,SLCo EOC FD Car,Emergency Operations Center FD Car/Car,Emergency Ops,Salt Lake County,3
+21728,54,A,SJord PD Car,Police 3 Car/Car,Law Talk,South Jordan,3
+21760,5500,A,SLCo FireTra,Fire Training Car to Car,Fire-Talk,Salt Lake County,3
+21792,5520,A,Midvale PD 3,Police 3,Law Dispatch,Midvale,3
+21824,5540,A,Murray FD Car,Fire Car/Car,Fire-Talk,Murray,3
+21856,5560,A,UFA Tac 10,Unified Fire Authority Tactical 10,Fire-Tac,Salt Lake County,3
+21888,5580,A,UFA Tac 11,Unified Fire Authority Tactical 11 / Staging,Fire-Tac,Salt Lake County,3
+21920,55a0,A,Midvale FD Car,Fire Car/Car,Fire-Talk,Midvale,3
+21984,55,A,Sandy PD 2,Police 2,Law Dispatch,Sandy,3
+22016,5600,A,Sandy FD Car,Fire Car/Car,Fire-Talk,Sandy,3
+22048,5620,A,Sandy PD,Police,Law Dispatch,Sandy,3
+22144,5680,A,SSaltLake PD Car,Police Car to Car,Law Tac,South Salt Lake,3
+22176,56a0,A,GraniteSchPD,Granite School District Police,Law Dispatch,Salt Lake County,3
+22208,56c0,A,SLCC Police 1,Salt Lake Community College Police 1,Law Dispatch,Salt Lake City,3
+22240,56,A,SLCC Police 2,Salt Lake Community College Police 2,Law Tac,Salt Lake City,3
+22304,5720,A,Murray PD 2,Police 2,Law Talk,Murray,3
+22336,5740,A,Murray PD 3,Police 3,Law Talk,Murray,3
+22368,5760,A,Gold Cross EMS 1,Gold Cross Ambulance 1,EMS Dispatch,Salt Lake County,3
+22400,5780,A,Univ UT PD 1,University of Utah Police 1 Dispatch,Law Dispatch,Salt Lake City,3
+22464,57c0,A,Univ UT PD 3,University of Utah Police 3 Car/Car ,Law Tac,Salt Lake City,3
+22496,57,A,WJordan PD 3,Police 3 Car/Car,Law Talk,West Jordan,3
+22528,5800,A,SJord Events,Police 4 Events,Law Talk,South Jordan,3
+22560,5820,A,W Valley PD 2,Police 2,Law Dispatch,West Valley City,3
+22592,5840,A,W Valley PD 4,Police 4,Law Dispatch,West Valley City,3
+22688,58a0,A,W Valley PD 10,Police 10,Law Talk,West Valley City,3
+22720,58c0,A,W Valley PD 11,Police 11,Law Dispatch,West Valley City,3
+22784,5900,A,W Valley PD 13,Police 13 E Center,Law Talk,West Valley City,3
+22816,5920,A,W Valley PD 14,Police 14 E Center,Law Talk,West Valley City,3
+22848,5940,A,W Valley PD 5,Police 5 Training,Law Talk,West Valley City,3
+22912,5980,A,Taylorsville PD,Police Car/Car,Law Talk,Taylorsville,3
+22944,59a0,A,CttnwdHts PD Car,Police Car to Car,Law Talk,Cottonwood Heights,3
+23008,59,A,UTA Police 1,Police 1,Law Dispatch,Utah Transit Authority,3
+23040,5a00,A,CttnwdHts PD Dis,Police Dispatch sometimes patched to South Salt Lake or Draper Police,Law Dispatch,Cottonwood Heights,3
+23072,5a20,A,WJordan PD 1,Police 1 Dispatch,Law Dispatch,West Jordan,3
+23104,5a40,A,Sandy PD Dis,Police 1 Dispatch,Law Dispatch,Sandy,3
+23136,5a60,A,W Valley PD D,Police Dispatch,Law Dispatch,West Valley City,3
+23168,5a80,A,Murray PD 1,Police 1,Law Dispatch,Murray,3
+23200,5aa0,A,SSaltLake PD Dis,Police Dispatch sometimes patched to Cottonwood Hts Police,Law Dispatch,South Salt Lake,3
+23232,5ac0,A,W Valley PD SV,Police Service,Law Tac,West Valley City,3
+23264,5ae0,A,VECC PD Srv1,VECC Law Enforcement 1,Law Dispatch,Salt Lake County,3
+23296,5b00,A,VECC PD Srv2,VECC Law Enforcement 2,Law Dispatch,Salt Lake County,3
+23360,5b40,A,Sandy PD Com,Community Policing,Law Talk,Sandy,3
+23392,5b60,A,Sandy DPW 1,Public Works 1,Public Works,Sandy,3
+23424,5b80,A,Sandy DPW 2,Public Works 2,Public Works,Sandy,3
+23456,5ba0,A,Sandy Util 1,Public Utilities 1,Public Works,Sandy,3
+23488,5bc0,A,Sandy Util 2,Public Utilities 2,Public Works,Sandy,3
+23520,5be0,A,Sandy Parks 1,Parks & Recreation 1,Public Works,Sandy,3
+23552,5c00,A,Sandy Parks 2,Parks & Recreation 2,Public Works,Sandy,3
+23584,5c20,A,Sandy Com Dev 1,Community Development 1,Public Works,Sandy,3
+23616,5c40,A,Sandy Com Dev 2,Community Development 2,Public Works,Sandy,3
+23648,5c60,A,Sandy Fleet Serv,Fleet Services,Public Works,Sandy,3
+23680,5c80,A,Sandy Facilities,Facilities,Public Works,Sandy,3
+23712,5ca0,A,Sandy ACO 1,Animal Services 1 Channel 11,Public Works,Sandy,3
+23744,5cc0,A,Sandy EOC,Emergency Operations Center,Emergency Ops,Sandy,3
+23776,5ce0,A,Sandy PD SpO,Police Special Operations,Law Talk,Sandy,3
+23808,5d00,A,Sandy PD Nar,Police Narcotics,Law Talk,Sandy,3
+23840,5d20,A,Sandy 2,Sandy,Multi-Talk,Sandy,3
+23872,5d40,A,Sandy ACO 2,Animal Services 2,Public Works,Sandy,3
+23904,5d60,A,W Valley PD SW,Police SWAT,Law Tac,West Valley City,3
+23936,5d80,A,W Valley ACO 1,Animal Control 1,Public Works,West Valley City,3
+24000,5dc0,A,W Valley BuldIns,Building Inspectors,Public Works,West Valley City,3
+24032,5de0,A,W Valley ACO 2,Animal Control 2,Public Works,West Valley City,3
+24096,5.00E+20,A,W Valley Parks,Parks and Recreation,Public Works,West Valley City,3
+24128,5.00E+40,A,W Valley DPW 1,Public Works 1,Public Works,West Valley City,3
+24192,5.00E+80,A,W Valley DPW 2,Public Works 2,Public Works,West Valley City,3
+24256,5ec0,A,Midvale DPW,Public Works Plows Papa-6,Public Works,Midvale,3
+24416,5f60,A,SJord EOC,Emergency Operations Center,Emergency Ops,South Jordan,3
+24480,5fa0,A,WJordan FD Train,Fire Training,Fire-Talk,West Jordan,3
+24768,60c0,A,Herriman PD Main,Police Main often Patched to Riverton & Draper Police,Law Talk,Herriman,3
+24800,60,A,Herriman PD Car,Police Car to Car,Law Talk,Herriman,3
+24896,6140,A,Incidnt Training,Incident Training,Fire-Talk,Utah State Misc,3
+24960,6180,A,Granite School 3,Granite School District 3,Schools,Salt Lake County,3
+25024,61c0,A,Gold Cross Iron,Gold Cross Ambulance Iron County,EMS Dispatch,Iron County,3
+25056,61,A,Gold Cross EMS 2,Gold Cross Ambulance 2,EMS Dispatch,Salt Lake County,3
+25088,6200,A,Gold Cross EMS 3,Gold Cross Ambulance 3,EMS Dispatch,Salt Lake County,3
+25120,6220,A,Gold Cross EMS 4,Gold Cross Ambulance 4 Washington County,EMS Dispatch,Salt Lake County,3
+25248,62a0,A,SJord SWAT,Police SWAT,Law Tac,South Jordan,3
+25280,62c0,A,Sandy PD 6,Police 6,Law Dispatch,Sandy,3
+25344,6300,A,Herriman EOC,Emergency Operations Center,Emergency Ops,Herriman,3
+25408,6340,A,UTA Police 3,Police 3 Car/Car   ,Law Tac,Utah Transit Authority,3
+25536,63c0,A,Bluffdale FD Trn,Fire Training,Fire-Talk,Bluffdale,3
+25600,6400,A,WJordan PD 2,Police 2 Car/Car,Law Talk,West Jordan,3
+25696,6460,A,WJordan PD Sp Op,Police Special Ops,Law Tac,West Jordan,3
+25728,6480,A,WJordan PD Det,Police Detectives,Law Talk,West Jordan,3
+26048,65c0,A,Utah DSPD,Division of Services for People with Disabilities,Public Works,Utah State Misc,3
+26144,6620,A,SoJord PD,Police sometimes patched Herriman and/or Draper Police,Law Dispatch,South Jordan,3
+26176,6640,A,SSaltLake PD Inv,Police Investigations Car/Car,Law Talk,South Salt Lake,3
+26336,66,A,Draper PD SWAT,Police SWAT,Law Tac,Draper,3
+26368,6700,A,Draper PD 2 Car,Police 2 Car to Car,Law Tac,Draper,3
+26400,6720,A,Draper PD 4,Police 4,Law Dispatch,Draper,3
+26432,6740,A,Draper PD Direct,Draper Police Direct sometimes patched to Herriman or Cottonwood Hts Police,Law Talk,Draper,3
+26528,67a0,A,UTA Police 2,Police 2,Law Tac,Utah Transit Authority,3
+26688,6840,A,UT Agricult 47A,Utah Department of Agriculture & Food 47A,Public Works,Utah State Misc,3
+26720,6860,A,Insur Fraud 52A,Insurance Fraud 52A Units,Law Talk,Utah State Misc,3
+26752,6880,A,Dev Ctr 15,Utah State Developmental Center 15,Public Works,Utah State Misc,3
+26784,68a0,A,USH Main,Main 12,Hospital,Utah State Hospital Provo,3
+26816,68c0,A,Juvenile Justice,Juvenile Justice System Main,Public Works,Utah State Misc,3
+26848,68,A,Rehab Main 10,Division of Rehabilitation Services Main 10,Public Works,Utah State Misc,3
+26880,6900,A,SLCo Human Serv1,Human Services 1 40A,Public Works,Salt Lake County,3
+26912,6920,A,SLCo Human Serv2,Human Services 2 Emergency,Public Works,Salt Lake County,3
+27168,6a20,A,Attorney Gen,State Attorney General Office,Law Talk,Utah State Misc,3
+27200,6a40,A,UT Dept Health,Utah Department of Health,Public Works,Utah State Misc,3
+27232,6a60,A,UT Health Common,Common,Public Works,Utah Department of Health,3
+27264,6a80,A,Health EMS,Department Of Health EMS,EMS-Talk,Utah State Misc,3
+27392,6b00,A,UEN Techs,Utah Education Network UEN Techs,Schools,Utah State Misc,3
+27456,6b40,A,UT Nat Guard,Utah National Guard,Military,Utah State Misc,3
+27488,6b60,A,UT Nat Grd Admin,Utah National Guard Administration,Military,Utah State Misc,3
+27584,6bc0,A,LifeFliAdmin,Life Flight Admin SLC,EMS-Talk,Utah Air Medical,3
+27616,6be0,A,LifefFlProvo,Life Flight Provo,EMS-Talk,Utah Air Medical,3
+27648,6c00,A,UnPacificDet,Union Pacific Railroad Detectives,Railroad,Union Pacific Railroad,3
+27680,6c20,A,Garfield Hosp,Garfield,Hospital,Utah Hospitals,3
+27712,6c40,A,Kane Hosp,Kane,Hospital,Utah Hospitals,3
+27776,6c80,A,Cent Valley Hosp,Central Valley Hospital Nephi Med 1,Hospital,Juab County,3
+27808,6ca0,A,Delta Hosp,Delta,Hospital,Utah Hospitals,3
+27840,6cc0,A,Fillmore Hosp,Fillmore,Hospital,Utah Hospitals,3
+27904,6d00,A,Sanpete Hosp,Sanpete Hospital,Hospital,Utah Hospitals,3
+27936,6d20,A,Gunnison Hosp,Gunnison,Hospital,Utah Hospitals,3
+27968,6d40,A,UU S Jordan Hosp,University of Utah South Jordan Hospital,Hospital,Utah Hospitals,3
+28000,6d60,A,MntPoint Med Ctr,Mountain Point Medical Center,Hospital,Utah Hospitals,3
+28096,6dc0,A,Moab Hospital,Moab Hospital,Hospital,Utah Hospitals,3
+28128,6de0,A,Health Man Net,Utah Department of Health Management Net,Emergency Ops,Utah State Misc,3
+28192,6.00E+20,A,San Juan Hosp,San Juan Hospital,Hospital,Utah Hospitals,3
+28224,6.00E+40,A,Blue Mountain,Blue Mountain,Hospital,Utah Hospitals,3
+28288,6.00E+80,A,Uintah Hosp,Uintah,Hospital,Utah Hospitals,3
+28320,6ea0,A,SJord Facil,Facility,Public Works,South Jordan,3
+28352,6ec0,A,SJord Water,Water,Public Works,South Jordan,3
+28384,6ee0,A,SJord Parks,Parks,Public Works,South Jordan,3
+28416,6f00,A,SJord Street,Streets,Public Works,South Jordan,3
+28448,6f20,A,SJord Ops,Operations,Public Works,South Jordan,3
+28480,6f40,A,SJord PWTac1,Public Works Tac 1,Public Works,South Jordan,3
+28512,6f60,A,SJord PWTac2,Public Works Tac 2,Public Works,South Jordan,3
+28544,6f80,A,SJord PWTac3,Public Works Tac 3,Public Works,South Jordan,3
+28576,6fa0,A,SJord Admin1,Admin 1,Multi-Tac,South Jordan,3
+28608,6fc0,A,SJord Admin1,Admin 2 Event Coordination,Multi-Tac,South Jordan,3
+28672,7000,A,Cache Jail,Cache County Jail,Corrections,Cache County,3
+28704,7020,A,Cache Law 2,Cache County Law 2 Police Depts - formerly Service,Law Dispatch,Cache County,2
+28736,7040,A,Cache SO Car,Cache County Sheriff Car to Car ,Law Talk,Cache County,2
+28768,7060,A,Cache SAR,Cache County Search and Rescue,Law Talk,Cache County,3
+28800,7080,A,Cache AC Car,Cache County Animal Control Car to Car,Law Talk,Cache County,3
+28832,70a0,A,Cache FD Pag,Cache County Fire/EMS Paging linked to 154.010,Fire Dispatch,Cache County,3
+28864,70c0,A,Cache FD Dis,Cache County Fire/EMS Dispatch linked to 155.010,Fire Dispatch,Cache County,2
+28896,70,A,Cache FD Car,Cache County Fire Car to Car,Fire-Talk,Cache County,3
+28928,7100,A,Cache Ops 1 ,Cache County Operations 1,Multi-Talk,Cache County,3
+28960,7120,A,Cache Ops 2 ,Cache County Operations 2,Multi-Talk,Cache County,3
+28992,7140,A,Cache Ops 3 ,Cache County Operations 3,Multi-Talk,Cache County,3
+29024,7160,A,Cache Ops 4 ,Cache County Operations 4,Multi-Talk,Cache County,3
+29056,7180,A,Cache Ops 5,Cache County Operations 5,Multi-Talk,Cache County,3
+29088,71a0,A,BoxElder Op6,County Operations 6,Law Talk,Box Elder County,3
+29120,71c0,A,BoxElder Op7,County Operations 7,Law Talk,Box Elder County,3
+29152,71,A,BoxElder Op8,County Operations 8,Law Talk,Box Elder County,3
+29184,7200,A,Rich Ops 9,Rich County Operations 9,Law Talk,Rich County,3
+29216,7220,A,Rich Ops 10,Rich County Operations 10,Law Talk,Rich County,3
+29248,7240,A,Logan Car,Logan City Car to Car,Multi-Talk,Cache County,2
+29280,7260,A,USU PD Disp,Utah State University Police Dispatch,Law Dispatch,Cache County,1
+29312,7280,A,Cache EOC 1,Cache County Emergency Operations 1,Emergency Ops,Cache County,2
+29344,72a0,A,Logan EOC 2,Logan Emergency Operations 2,Emergency Ops,Cache County,2
+29376,72c0,A,Rich SO 2,Rich County Sheriff 2,Law Talk,Rich County,3
+29408,72,A,Rich FD 1 Pg,Rich County Fire 1 Paging,Fire Dispatch,Rich County,3
+29440,7300,A,Rich FD 2,Rich County Fire 2,Fire-Talk,Rich County,3
+29504,7340,A,Rich EOC,Rich County EOC,Emergency Ops,Rich County,3
+29536,7360,A,Dev Ctr,Utah State Developmental Center,Public Works,Utah State Misc,2
+29568,7380,A,USU PD Car,Utah State University Police Car to Car,Law Talk,Cache County,1
+29600,73a0,A,SmithfieldFD,Smithfield Fire Car to Car Station 40,Fire Dispatch,Cache County,3
+29632,73c0,A,Smithfld Car,Smithfield City Car to Car,Multi-Talk,Cache County,3
+29664,73,A,No. Park Car,North Park City Car to Car,Multi-Talk,Cache County,3
+29696,7400,A,N Logan FD C,North Logan Fire Car to Car Station 120,Fire-Talk,Cache County,3
+29728,7420,A,Logan FD Car,Logan Fire Car to Car Station 70 - USU Station 71,Fire-Talk,Cache County,3
+29792,7460,A,Logan Court,1st District Court Security - Logan ,Security,Cache County,3
+29824,7480,A,Newton FD,Newton Fire Car to Car Station 50,Fire-Talk,Cache County,3
+29856,74a0,A,WellsvilleFD,Wellsville Fire Car to Car Station 60,Fire-Talk,Cache County,3
+29888,74c0,A,Hyrum FD,Hyrum Fire Car to Car Station 80,Fire-Talk,Cache County,3
+29920,74,A,BoxElder Law,County Law 2,Law Talk,Box Elder County,3
+29952,7500,A,Paradise FD,Adult Probation & Patrol AND Paradise Fire Car to Car Station 90,Fire-Talk,Cache County,3
+29984,7520,A,BoxElder FD1,Fire 1 paging,Fire Dispatch,Box Elder County,3
+30016,7540,A,BoxElder FD2,Fire 2,Fire-Talk,Box Elder County,3
+30080,7580,A,BoxElder SAR,Search and Rescue,Law Talk,Box Elder County,3
+30144,75c0,A,Mendon FD,Mendon Fire Car to Car Station 110,Fire-Talk,Cache County,3
+30176,75,A,Trenton FD,Trenton Fire Car to Car Station 130,Fire-Talk,Cache County,3
+30208,7600,A,Nibley EMS,Nibley EMS Car to Car Station 140,Fire-Talk,Cache County,3
+30240,7620,A,Clarkston FD,Clarkston Fire Car to Car Station 10,Fire-Talk,Cache County,3
+30272,7640,A,Lewiston FD,Lewiston Fire Car to Car Station 20,Fire-Talk,Cache County,3
+30304,7660,A,Richmnd FD,Richmond Fire Car to Car Station 30,Fire-Talk,Cache County,3
+30464,7700,A,UHP Virgin,Washington County Linked to 155.625,Law Dispatch,Utah Highway Patrol,3
+30624,77a0,A,UDOT Carbon Main,Carbon County Main,Public Works,Utah Department of Transportation,3
+30656,77c0,A,UDOT Carbon Aux1,Carbon County Aux 1,Public Works,Utah Department of Transportation,3
+30688,77,A,UDOT Carbon Aux2,Carbon County Aux 2,Public Works,Utah Department of Transportation,3
+30720,7800,A,UDOT Iron Co.,Iron County near Paragonah,Public Works,Utah Department of Transportation,3
+30912,78c0,A,UDOT Juab/Mill,Region 4 Juab/Millard counties ,Public Works,Utah Department of Transportation,3
+30944,78,A,UDOT Grand,Grand County,Public Works,Utah Department of Transportation,3
+30976,7900,A,UDOT Moab area,Moab area,Public Works,Utah Department of Transportation,3
+31008,7920,A,UDOT I-70,Interstate 70,Public Works,Utah Department of Transportation,3
+31072,7960,A,UDOT R-4 East,San Juan/Grand/Emery counties,Public Works,Utah Department of Transportation,3
+31168,79c0,A,UDOT Manti,Manti Area,Public Works,Utah Department of Transportation,3
+31200,79,A,UDOT R-4 West,Region 4 Piute/Sevier/Wayne counties,Public Works,Utah Department of Transportation,3
+31648,7ba0,A,Price FD,Price Fire linked to 153.890,Fire Dispatch,Carbon County,3
+31776,7c20,A,USCF Bear Men,USCF Bear Facility Men's General Population,Corrections,Utah Department of Corrections,3
+31808,7c40,A,USCF Bear Cent,USCF Bear Facility Central Control,Corrections,Utah Department of Corrections,3
+31968,7ce0,A,USCF Culinary,USCF Culinary,Corrections,Utah Department of Corrections,3
+32000,7d00,A, USCF Freemont,USCF Freemont Unit,Corrections,Utah Department of Corrections,3
+35488,8aa0,A,Kane Co. FD/EMS,Kane County Fire/EMS,Fire Dispatch,Kane County,3
+35712,8b80,A,Emery Co SO,Sheriff's Office,Law Dispatch,Emery County,3
+35904,8c40,A,Grand SO Disp,Sheriff Dispatch SL1 - linked to 154.115,Law Dispatch,Grand County,3
+35936,8c60,A,Grand SO Tac,Sheriff Tactical SL2 - linked to 155.730,Law Tac,Grand County,3
+35968,8c80,A,Grand Roads,Roads,Public Works,Grand County,3
+36000,8ca0,A,Grand EMS Tac,EMS/Ambulance,EMS-Tac,Grand County,3
+36064,8ce0,A,Grand EMS Disp,EMS Dispatch linked to 155.835,EMS Dispatch,Grand County,3
+36128,8d20,A,San Juan SO,Sheriff,Law Dispatch,San Juan County,3
+36704,8f60,A,SevierCo Ambul,Sevier County Ambulance,EMS-Tac,Sevier County,3
+37024,90a0,A,USH Swichboard,Switchboard,Hospital,Utah State Hospital Provo,3
+37056,90c0,A,USH Northeast,Northeast,Hospital,Utah State Hospital Provo,3
+37088,90,A,USH Central Crtl,Central Control,Hospital,Utah State Hospital Provo,3
+37120,9100,A,USH Legacy,Legacy,Hospital,Utah State Hospital Provo,3
+37152,9120,A,USH MtnView/Bonn,Mountain Veiw/Bonneville,Hospital,Utah State Hospital Provo,3
+37184,9140,A,USH Northwest,Northwest,Hospital,Utah State Hospital Provo,3
+37248,9180,A,USH Southeast,Southeast,Hospital,Utah State Hospital Provo,3
+37312,91c0,A,USH Boys Unit,Boys Unit,Hospital,Utah State Hospital Provo,3
+37408,9220,A,USH Maint,Maintenance,Hospital,Utah State Hospital Provo,3
+37440,9240,A,Provo StreetData,Streets Data Transmissions,Public Works,Provo,3
+37504,9280,A,Provo Jail,Police Jail,Law Talk,Provo,3
+37536,92a0,A,Provo Street/Gnd,Streets/Grounds Loading,Public Works,Provo,3
+37568,92c0,A,Provo Wire 1,Power Wire Pulling 1,Public Works,Provo,3
+37600,92,A,Provo Wire 2,Power Wire Pulling 2,Public Works,Provo,3
+37632,9300,A,Provo Wire 3,Power Wire Pulling 3,Public Works,Provo,3
+37696,9340,A,Provo Wire 4,Power Wire Pulling 4,Public Works,Provo,3
+37792,93a0,A,Provo Snow,Streets/Snow Removal,Public Works,Provo,3
+37888,9400,A,Provo Grounds 1,Grounds,Public Works,Provo,3
+37920,9420,A,Provo Grounds 2,Grounds,Public Works,Provo,3
+37952,9440,A,Provo Cemetery 2,Cemetery 2,Public Works,Provo,3
+37984,9460,A,Provo Cemetery 1,Cemetery 1,Public Works,Provo,3
+38080,94c0,A,Provo EnergyDisp,Energy/Power Dispatch,Public Works,Provo,3
+38112,94,A,Provo Power 2,Power 2,Public Works,Provo,3
+38176,9520,A,Provo Streets,Streets,Public Works,Provo,3
+38208,9540,A,Provo Wire 5,Power Wire Pulling 5,Public Works,Provo,3
+38272,9580,A,Provo Sanitation,All Call Sanitation,Public Works,Provo,3
+38304,95a0,A,Provo Plows,Streets/Plows,Public Works,Provo,3
+38336,95c0,A,Provo Waste,Waste Dept,Public Works,Provo,3
+38400,9600,A,Construct 1,Construction and Management 1,Public Works,Utah Division of Facilities Construction and Management,3
+38432,9620,A,Construct 2,Construction and Management 2,Public Works,Utah Division of Facilities Construction and Management,3
+38464,9640,A,Construct 3 Main,Construction and Management 3 Main,Public Works,Utah Division of Facilities Construction and Management,3
+38496,9660,A,Construct 4,Construction and Management 4,Public Works,Utah Division of Facilities Construction and Management,3
+38528,9680,A,Construct 5,Construction and Management 5,Public Works,Utah Division of Facilities Construction and Management,3
+38560,96a0,A,Construct 6,Construction and Management 6,Public Works,Utah Division of Facilities Construction and Management,3
+38592,96c0,A,Construct 7,Construction and Management 7,Public Works,Utah Division of Facilities Construction and Management,3
+38624,96,A,Construct 8,Construction and Management 8,Public Works,Utah Division of Facilities Construction and Management,3
+38656,9700,A,Construct 9,Construction and Management 9,Public Works,Utah Division of Facilities Construction and Management,3
+38720,9740,A,UHP Juab,Juab County Linked to 151.220,Law Dispatch,Utah Highway Patrol,3
+38912,9800,A,PubHealth CentUT,Central Utah Public Health,Public Works,Utah Department of Health,3
+39488,9a40,A,Provo Event 1,Event 1,Law Talk,Provo,3
+39520,9a60,A,Provo Event 2,Event 2,Law Talk,Provo,3
+39552,9a80,A,Provo Event 3,Event 3,Law Talk,Provo,3
+39584,9aa0,A,Provo Event 4,Event 4,Law Talk,Provo,3
+39872,9bc0,A,USFS Tac,US Forest Service Tactical,Federal,Utah Department of Natural Resources,3
+39968,9c20,A,Tooele BLM,BLM Rangers,Federal,Tooele County,3
+40000,9c40,A,Tooele Law 1,Law 1 Sheriff/UHP,Law Dispatch,Tooele County,3
+40032,9c60,A,Tooele Law 2,Law 2,Law Talk,Tooele County,3
+40064,9c80,A,Tooele Law C,Law Car to Car,Law Talk,Tooele County,3
+40096,9ca0,A,Tooele Serv,County Service,Multi-Talk,Tooele County,3
+40128,9cc0,A,Tooele FD 1,Fire/EMS 1 linked to 155.820,Fire Dispatch,Tooele County,3
+40160,9ce0,A,Tooele FD 2,Fire 2,Fire-Talk,Tooele County,3
+40192,9d00,A,Tooele FD 3,Fire 3,Fire-Talk,Tooele County,3
+40224,9d20,A,Tooele Jail,Jail,Corrections,Tooele County,3
+40288,9d60,A,Tooele EOC 1,Emergency Operations Center 1,Emergency Ops,Tooele County,3
+40320,9d80,A,Tooele EOC 2,Emergency Operations Center 2,Emergency Ops,Tooele County,3
+40352,9da0,A,Tooele Roads,County Roads,Public Works,Tooele County,3
+40384,9dc0,A,Tooele Bus,County School Buses,Schools,Tooele County,3
+40416,9de0,A,Tooele PD 5,Police 5,Law Talk,Tooele County,3
+40448,9,A,Grantsvil PD,Grantsville Police,Law Talk,Tooele County,3
+40480,9.00E+20,A,Wendover PD,Wendover Police,Law Talk,Tooele County,3
+40512,9.00E+40,A,Wendover Air,Wendover Airport Operations,Public Works,Tooele County,3
+40640,9ec0,A,Tooele SAR,Search and Rescue,Law Talk,Tooele County,3
+40672,9ee0,A,TooeleHealth,County Health Department,Hospital,Tooele County,3
+40704,9f00,A,Tooele Ops 1,Operations 1,Law Talk,Tooele County,3
+40736,9f20,A,Tooele Ops 2,Operations 2,Law Talk,Tooele County,3
+40768,9f40,A,Tooele Ops 3,Operations 3,Law Talk,Tooele County,3
+40800,9f60,A,Tooele Ops 4,Operations 4,Law Talk,Tooele County,3
+40832,9f80,A,Tooele Ops 5,Operations 5,Law Talk,Tooele County,3
+40864,9fa0,A,Tooele Ops 6,Operations 6,Law Talk,Tooele County,3
+40928,9fe0,A,Tooele Medic,County Medical Operations,EMS-Talk,Tooele County,3
+40960,a000,A,Tooele Court,County Courts,Law Talk,Tooele County,3
+41088,a080,A,UVU Security,Utah Valley University Security,Schools,Orem,3
+41312,a160,A,UtahCo Judicial,Judicial,Security,Utah County,3
+41376,a1a0,A,UtahCo FD Car,Fire 3 Car to Car,Fire-Talk,Utah County,3
+41440,a1e0,A,UtahCo FD 3,Fire 3 Linked to 155.190,Fire-Talk,Utah County,3
+41472,a200,A,UtahCo FD 4,Fire 4 Linked to 154.445,Fire-Talk,Utah County,3
+41504,a220,A,UtahCo FD 5,Fire 5,Fire-Talk,Utah County,3
+41536,a240,A,UtahCo FD RIT,Fire Rapid. Intervention Team RIT,Fire-Talk,Utah County,3
+41632,a2a0,A,Cedar Fort FD,Fire Car/Car,Fire-Talk,Cedar Fort,3
+41664,a2c0,A,Eagle Mtn FD,Fire,Fire Dispatch,Eagle Mountain,3
+41696,a2e0,A,Saratoga FD,Fire,Fire Dispatch,Saratoga Springs,3
+41792,a340,A,UDOT R-3 Pain,Region 3 Paint Crew 3443,Public Works,Utah Department of Transportation,3
+41824,a360,A,UDOT Saratoga,Saratoga Springs 328,Public Works,Utah Department of Transportation,3
+42048,a440,A,UDOT R-3,Region 3,Public Works,Utah Department of Transportation,3
+42112,a480,A,UDOT TOC,Traffic Operations Group,Public Works,Utah Department of Transportation,3
+42272,a520,A,UDOT R-1 Shop,Region 1 Shop,Public Works,Utah Department of Transportation,3
+42304,a540,A,UDOT Eureka,Eureka 321 7C,Public Works,Utah Department of Transportation,3
+42336,a560,A,UDOT Nephi,Nephi 322 7D,Public Works,Utah Department of Transportation,3
+42368,a580,A,UDOT Lehi,Lehi 323 7E,Public Works,Utah Department of Transportation,3
+42400,a5a0,A,UDOT Santaqin,Santaquin 324 7F,Public Works,Utah Department of Transportation,3
+42432,a5c0,A,UDOT ProvoCyn,Provo Canyon 325 7G,Public Works,Utah Department of Transportation,3
+42464,a5e0,A,UDOT SpanFork,Spanish Fork 326 7H,Public Works,Utah Department of Transportation,3
+42496,a600,A,UDOT Provo,Provo 327 7I,Public Works,Utah Department of Transportation,3
+42528,a620,A,UDOT Tabiona,Tabiona 333 7K,Public Works,Utah Department of Transportation,3
+42560,a640,A,UDOT Duchesne,Duchesne 334 7L,Public Works,Utah Department of Transportation,3
+42592,a660,A,UDOT Roosevlt,Roosevelt 335 7M,Public Works,Utah Department of Transportation,3
+42624,a680,A,UDOT Manila,Manila 336 7N,Public Works,Utah Department of Transportation,3
+42656,a6a0,A,UDOT Vernal,Vernal 337 7O,Public Works,Utah Department of Transportation,3
+42688,a6c0,A,UDOT R-3 Mech,Region 3 Mechanics,Public Works,Utah Department of Transportation,3
+42752,a700,A,BYU Police 2,BYU Police 2,Law Talk,Provo,3
+42784,a720,A,Provo SWAT,Police SWAT,Law Tac,Provo,3
+42848,a760,A,UtahCo SO Sv,Sheriff Service Linked to 154.1075,Law Talk,Utah County,3
+42880,a780,A,UtahCo LE Car 2,Law Car/Car 2 Alpha 7,Law Talk,Utah County,3
+42976,a7e0,A,UtahCo Ops 1,County Operations 1 - Patch only,Multi-Talk,Utah County,3
+43008,a800,A,UtahCo Ops 2,County Operations 2,Multi-Talk,Utah County,3
+43040,a820,A,UtahCo Ops 3,County Operations 3,Multi-Talk,Utah County,3
+43072,a840,A,UtahCo Ops 4,County Operations 4,Multi-Talk,Utah County,3
+43104,a860,A,UtahCo Ops 5,County Operations 5,Multi-Talk,Utah County,3
+43136,a880,A,UtahCo Ops 6,County Operations 6,Multi-Talk,Utah County,3
+43168,a8a0,A,UtahCo Ops 7,County Operations 7 - Provo Secondary,Multi-Talk,Utah County,3
+43200,a8c0,A,UtahCo Ops 8,County Operations 8,Multi-Talk,Utah County,3
+43232,a8e0,A,UtahCo Ops 9,County Operations 9 - Provo/BYU,Multi-Talk,Utah County,3
+43264,a900,A,UtahCo Ops 10,County Operations 10 - Provo Alternate,Multi-Talk,Utah County,3
+43296,a920,A,UT EOC 14,Utah Emergency Operations Center 14,Emergency Ops,Utah State Misc,3
+43328,a940,A,Alpine PD 3,Police 3 Alpine/Highland,Law Talk,Alpine,3
+43360,a960,A,Alpine DPW,Public Works,Public Works,Alpine,3
+43392,a980,A,Alpine PD Car,Police Car/Car,Law Talk,Alpine,3
+43424,a9a0,A,Lone Peak FD,Lone Peak Fire District,Fire Dispatch,Utah County,3
+43456,a9c0,A,AmerFork PD 3,Police 3,Law Dispatch,American Fork,3
+43488,a9e0,A,AmerFork FD 1,Fire/EMS 1,Fire Dispatch,American Fork,3
+43520,aa00,A,AmerFork PD 4,Police 4 Car/Car,Law Talk,American Fork,3
+43584,aa40,A,Alpine PD Car,Police Car/Car Alpine/Highland,Law Talk,Alpine,3
+43680,aaa0,A,Lehi PD 3,Police 3,Law Tac,Lehi,3
+43712,aac0,A,Lehi Fire,Fire,Fire Dispatch,Lehi,3
+43744,aae0,A,Lehi PD Car,Police Car/Car,Law Talk,Lehi,3
+43776,ab00,A,Lehi DPW,Public Works,Public Works,Lehi,3
+43808,ab20,A,PlesntGrove PD C,Police Car/Car,Law Tac,Pleasant Grove,3
+43840,ab40,A,PlesntGrove FD 2,Fire 2 Fireground,Fire-Tac,Pleasant Grove,3
+43872,ab60,A,Lindon PD Car,Police Car/Car,Law Talk,Lindon,3
+43904,ab80,A,Lindon PD Disp,Police Dispatch,Law Dispatch,Lindon,3
+43936,aba0,A,Salem PD Car,Salem Police Car to Car,Law Talk,Utah County - Southern Cities,3
+44096,ac40,A,Payson FD Cr,Payson Fire/EMS Fireground/Car to Car,Fire-Tac,Utah County - Southern Cities,3
+44224,acc0,A,PlesntGrove DPW,City Services,Public Works,Pleasant Grove,3
+44256,ace0,A,PlesntGrove FD 1,Fire 1 Dispatch Linked to 154.010,Fire Dispatch,Pleasant Grove,3
+44320,ad20,A,PlesntGrove PD 3,Police 3 Car/Car,Law Tac,Pleasant Grove,3
+44352,ad40,A,SpanFork Car,Spanish Fork Car to Car,Law Talk,Utah County - Southern Cities,3
+44384,ad60,A,SpanFork FD,Spanish Fork Fire F1 Car to Car,Fire-Tac,Utah County - Southern Cities,3
+44416,ad80,A,SpanFork PD 4,Spanish Fork Police Car to Car 4,Law Talk,Utah County - Southern Cities,3
+44480,adc0,A,UHP Utah Co Car,UHP 4 Utah County Car/Car,Law Talk,Utah Highway Patrol,3
+44608,ae40,A,Orem PD 1,Police 1,Law Dispatch,Orem,3
+44640,ae60,A,Orem PD 2,Police 2 Also Lindon,Law Talk,Orem,3
+44672,ae80,A,Orem PD 3,Police 3 Car/Car,Law Talk,Orem,3
+44704,aea0,A,Orem PD ACO,Animal Control,Law Talk,Orem,3
+44736,aec0,A,Orem FD 1,Fire/EMS 1,Fire Dispatch,Orem,3
+44768,aee0,A,Orem FD 2,Fire/EMS 2,Fire Dispatch,Orem,3
+44800,af00,A,Orem Parks,Parks & Recreation,Public Works,Orem,3
+44832,af20,A,Orem Engine,Engineering,Public Works,Orem,3
+44864,af40,A,Orem Parks 1D,Parks & Recreation 1D,Public Works,Orem,3
+44896,af60,A,Orem Water,Water 1D,Public Works,Orem,3
+44928,af80,A,Orem DPW 1,Public Works 1,Public Works,Orem,3
+44960,afa0,A,Orem DPW 2,Public Works 2,Public Works,Orem,3
+45024,afe0,A,Orem Bldg Insp,Building Inspection,Public Works,Orem,3
+45056,b000,A,Orem DPW 2A,Public Works 2A,Public Works,Orem,3
+45088,b020,A,BYU Police 1,BYU Police 1,Law Dispatch,Provo,3
+45120,b040,A,Provo PD 1,Police 1 PS1,Law Dispatch,Provo,3
+45152,b060,A,Provo PD 2,Police 2 PS2,Law Talk,Provo,3
+45184,b080,A,Provo FD/EMS,Fire/EMS PS3,Fire Dispatch,Provo,3
+45216,b0a0,A,Provo Tac 5,Tac 5,Multi-Talk,Provo,3
+45248,b0c0,A,Provo Tac 6,Tac 6,Multi-Talk,Provo,3
+45280,b0e0,A,Provo PD 3,Police 3 Car/Car,Law Talk,Provo,3
+45312,b100,A,Provo FD 1,Fire 1,Fire Dispatch,Provo,3
+45344,b120,A,Provo 45344,Provo 45344,Multi-Talk,Provo,3
+45376,b140,A,Provo 45375,Provo 45376,Multi-Talk,Provo,3
+45408,b160,A,Provo FD Pag,Fire Page/Alert,Fire Dispatch,Provo,3
+45440,b180,A,Provo Water,Water,Public Works,Provo,3
+45504,b1c0,A,UtahCo LE 4,Law 4,Law Talk,Utah County,3
+45536,b1e0,A,UtahCo LE 2 NE,Law 2 NE American Fork - Lehi - Alpine - Highland,Law Dispatch,Utah County,3
+45568,b200,A,SpringvilFD2,Springville Fire 2,Fire-Tac,Utah County - Southern Cities,3
+45632,b240,A,Orem DPW 2B,Public Works 2B,Public Works,Orem,3
+45664,b260,A,Salem FD/EMS,Salem Fire/EMS,Fire Dispatch,Utah County - Southern Cities,3
+45696,b280,A,SpringvilPD1,Springville Police 1,Law Dispatch,Utah County - Southern Cities,3
+45728,b2a0,A,Springvil T1,Springville Tac 1,Multi-Talk,Utah County - Southern Cities,3
+45760,b2c0,A,Springvil T2,Springville Tac 2,Multi-Talk,Utah County - Southern Cities,3
+45792,b2e0,A,SpringvilFD1,Springville Fire 1,Fire-Tac,Utah County - Southern Cities,3
+45824,b300,A,SpringvilFD2,Springville Fire Dispatch,Fire Dispatch,Utah County - Southern Cities,3
+45920,b360,A,Springville Pwr,Springville Power,Utilities,Utah County - Southern Cities,3
+45952,b380,A,Mapleton PD,Mapleton Police,Law Dispatch,Utah County - Southern Cities,3
+45984,b3a0,A,Springvil FD,Springville Fire,Fire Dispatch,Utah County - Southern Cities,3
+46016,b3c0,A,Mapleton EMS,Mapleton EMS,EMS Dispatch,Utah County - Southern Cities,3
+46048,b3e0,A,Mapleton PW,Mapleton Public Works,Public Works,Utah County - Southern Cities,3
+46080,b400,A,Mapleton Car,Mapleton Police Car to Car,Law Talk,Utah County - Southern Cities,3
+46112,b420,A,UtahCo LE 1 NW,Law 1 NW Provo - Orem - Eagle Mt - Saratoga Springs - Bluffdale - Vineyard,Law Dispatch,Utah County,3
+46144,b440,A,UtahCo LE 3 S,Law 3 S S Provo/Juab County,Law Dispatch,Utah County,3
+46176,b460,A,UtahCo SO 4,Sheriff 4 Car/Car,Law Tac,Utah County,3
+46208,b480,A,UtahCo SO 5,Sheriff 5 Car/Car,Law Tac,Utah County,3
+46240,b4a0,A,UtahCo FD Alert,Fire Alert,Fire Dispatch,Utah County,3
+46272,b4c0,A,UtahCo FD 2,Fire 2 Linked to 154.740,Fire Dispatch,Utah County,3
+46304,b4e0,A,UtahCo FD 1,Fire 1 Linked to 153.950,Fire Dispatch,Utah County,3
+46336,b500,A,UtahCo SAR,Search & Rescue Linked to 155.235,Emergency Ops,Utah County,3
+46432,b560,A,UtahCo DPW,Public Works no longer used?,Public Works,Utah County,3
+46464,b580,A,UtahCo SWAT1,County SWAT 1,Law Tac,Utah County,3
+46560,b5e0,A,UtahCo Roads,Roads,Public Works,Utah County,3
+46592,b600,A,UtahCo FD ?,Fire Car to Car ?,Fire-Tac,Utah County,3
+46688,b660,A,Heber City  PD 3,Police 3 Car to Car,Multi-Dispatch,Heber City,3
+46752,b6a0,A,UDOT Strawbry,Strawberry 345,Public Works,Utah Department of Transportation,3
+46944,b760,A,Wasatch SO 5,Sheriff 5,Law Talk,Wasatch County,3
+47008,b7a0,A,SummitCo Ops 4,County Operations 4,Multi-Talk,Summit County,3
+47040,b7c0,A,SummitCo Ops 3,County Operations 3,Multi-Talk,Summit County,3
+47072,b7e0,A,Wasatch SO 2,Sheriff 2,Law Talk,Wasatch County,3
+47104,b800,A,Wasatch SO 1,Sheriff 1,Law Talk,Wasatch County,3
+47136,b820,A,Wasatch FD 2,Fire/EMS 2,Fire-Talk,Wasatch County,3
+47200,b860,A,Wasatch SO 3,Sheriff 3,Law Talk,Wasatch County,3
+47264,b8a0,A,Wasatch SO 4,Sheriff 4,Law Talk,Wasatch County,3
+47328,b8e0,A,Wasatch DPW 1,Public Works 1,Public Works,Wasatch County,3
+47392,b920,A,Wasatch SAR 5,Search and Rescue 5,Emergency Ops,Wasatch County,3
+47424,b940,A,Wasatch FD 1,Fire/EMS 1,Fire Dispatch,Wasatch County,3
+47456,b960,A,Wasatch Service,Service,Public Works,Wasatch County,3
+47488,b980,A,Wasatch SO Disp,Sheriff Dispatch,Law Dispatch,Wasatch County,3
+47520,b9a0,A,Wasatch DPW 2,Public Works 2,Public Works,Wasatch County,3
+47584,b9e0,A,SummitCo FD NTc1,North Fire Tac 1,Fire-Tac,Summit County,3
+47712,ba60,A,SummitCo DPW,Public Works,Public Works,Summit County,3
+47776,baa0,A,Summit SO 7,Sheriff Car/Car 7,Law Talk,Summit County,3
+47808,bac0,A,SummitCo SAR,Search & Rescue,Law Tac,Summit County,3
+47840,bae0,A,Summit SO 6,Sheriff Car/Car 6,Law Talk,Summit County,3
+47872,bb00,A,SummitCo EMS,EMS,EMS Dispatch,Summit County,3
+47904,bb20,A,SummitCo FD N,North Fire Dispatch,Fire Dispatch,Summit County,3
+47936,bb40,A,SummitCo FD Disp,Fire Dispatch,Fire Dispatch,Summit County,3
+47968,bb60,A,Summit SO Serv,Sheriff Service,Law Talk,Summit County,3
+48000,bb80,A,Summit SO/UHP,Sheriff/UHP 1 Linked to 155.610,Law Dispatch,Summit County,3
+48032,bba0,A,Park City PD 1,Police 1 Dispatch,Law Dispatch,Park City,3
+48064,bbc0,A,SummitCo ACO,Animal Control,Public Works,Summit County,3
+48160,bc20,A,SummitCo FD T1,Fire Tac 1,Fire-Tac,Summit County,3
+48192,bc40,A,SummitCo FD T2,Fire Tac 2,Fire-Tac,Summit County,3
+48416,bd20,A,SummitCo Sen Bus,Senior Bus,Transportation,Summit County,3
+48480,bd60,A,Park City Bus,Transit Bus,Transportation,Park City,3
+48672,be20,A,Park City PD 2,Police 2 Car/Car,Law Tac,Park City,3
+48800,bea0,A,Park City PD 3,Police 3 Service,Law Talk,Park City,3
+48928,bf20,A,Park City,Park City,Multi-Talk,Park City,3
+48992,bf60,A,Saratoga PD Tac,Police Tactical,Law Tac,Saratoga Springs,3
+49024,bf80,A,Saratoga PD Car,Police Car to Car,Law Tac,Saratoga Springs,3
+49056,bfa0,A,Saratoga DPW,City Services,Public Works,Saratoga Springs,3
+49120,bfe0,A,Woodland FD,Woodland Hills Fire Car to Car,Fire-Talk,Utah County - Southern Cities,3
+49152,c000,A,AmerFork PD 5,Police 5 Tac,Law Tac,American Fork,3
+49216,c040,A,Garfield SO,Sheriff,Law Dispatch,Garfield County,3
+49440,c120,A,Eagle Mtn DPW,Public Works & Events,Public Works,Eagle Mountain,3
+49600,c1c0,A,UHP Sevier N,Sevier County North Linked to 155.310,Law Dispatch,Utah Highway Patrol,3
+49632,c1e0,A,UHP Sevier S,Sevier County South Linked to 155.595,Law Dispatch,Utah Highway Patrol,3
+49664,c200,A,UHP Cedar N,Cedar City North Iron & Beaver Co.,Law Dispatch,Utah Highway Patrol,3
+49696,c220,A,UHP Cedar S,Cedar City South Washington Co.,Law Dispatch,Utah Highway Patrol,3
+49728,c240,A,UHP Carbon Co,Carbon Co. Linked to Ford Ridge 155.655,Law Dispatch,Utah Highway Patrol,3
+49760,c260,A,UHP Emery Co,Emery Co. Linked to Cedar Mtn 154.920 & Bald Mesa 154.830,Law Dispatch,Utah Highway Patrol,3
+49792,c280,A,Carbon Co SO/PD,Sheriff & City Police linked to 155.430,Law Dispatch,Carbon County,3
+49856,c2c0,A,WashCo LE 1,LE 1 - St George/ Dixie State University,Law Dispatch,Washington County,3
+49888,c2e0,A,WashCo LE 2,LE 2 Sheriff / La Verkin / Springdale / Ivins-Santa Clara SCI,Law Dispatch,Washington County,3
+49920,c300,A,WashCo LE 3,LE 3 Hurricane / Washington / DNR-Parks,Law Dispatch,Washington County,3
+49952,c320,A,WashCo LE 4,LE 4,Law Talk,Washington County,3
+49984,c340,A,WashCo LE 5,LE 5,Law Talk,Washington County,3
+50016,c360,A,WashCo LE 6,LE 6,Law Talk,Washington County,3
+50048,c380,A,WashCo LE 7/ACO,LE 7 St George Animal Control,Law Talk,Washington County,3
+50080,c3a0,A,WashCo FD NW,Fire Northwest - St. George/Washington,Fire Dispatch,Washington County,3
+50112,c3c0,A,WashCo FD C/E,Fire Central/East - Hurricane/Leeds,Fire Dispatch,Washington County,3
+50144,c3e0,A,WashCo Ops 1,County Operations 1,Emergency Ops,Washington County,3
+50176,c400,A,WashCo Ops 2,County Operations 2,Emergency Ops,Washington County,3
+50208,c420,A,WashCo Ops 3,County Operations 3,Emergency Ops,Washington County,3
+50240,c440,A,WashCo Ops 4,County Operations 4,Emergency Ops,Washington County,3
+50272,c460,A,WashCo Ops 5,County Operations 5,Emergency Ops,Washington County,3
+50304,c480,A,Iron Co. Ops 1,County Ops 1,Multi-Talk,Iron County,3
+50336,c4a0,A,Iron Co. Ops 2,County Ops 2,Multi-Talk,Iron County,3
+50368,c4c0,A,Iron Co. Ops 3,County Ops 3,Multi-Talk,Iron County,3
+50400,c4e0,A,Beaver Co. Ops 1,Beaver County Ops 1,Multi-Talk,Beaver County,3
+50432,c500,A,Beaver Co. Ops 2,Beaver County Ops 2,Multi-Talk,Beaver County,3
+50464,c520,A,WashCo LE 8/Car,LE 8 Car/Car,Law Talk,Washington County,3
+50496,c540,A,WashCo LE Car,LE Car/Car,Law Talk,Washington County,3
+50528,c560,A,WashCo LE 9 Car,LE 9 Car/Car,Law Talk,Washington County,3
+50560,c580,A,WashCo FD 10/Car,Fire 10 Car/Car,Fire-Talk,Washington County,3
+50624,c5c0,A,Hilldale FD,Hilldale-Colorado City Fire,Fire Dispatch,Hilldale,3
+50656,c5e0,A,WashCo Ops10,County Operations 10,Emergency Ops,Washington County,3
+50720,c620,A,WashCo Ops11,County Operations 11,Emergency Ops,Washington County,3
+50752,c640,A,WashCo Ops12,County Operations 12,Emergency Ops,Washington County,3
+50784,c660,A,WashCo Ops13,County Operations 13,Emergency Ops,Washington County,3
+50816,c680,A,WashCo Ops14,County Operations 14,Emergency Ops,Washington County,3
+50848,c6a0,A,WashCo Ops15,County Operations 15,Emergency Ops,Washington County,3
+50880,c6c0,A,WashCo Ops16,County Operations 16,Emergency Ops,Washington County,3
+50912,c6e0,A,Kane Co Law,Law,Law Dispatch,Kane County,3
+51072,c780,A,Beaver Co. 1Vict,1 Victor and Fire Units,Multi-Dispatch,Beaver County,3
+51264,c840,A,Iron Co. Disp,County Dispatch Cedar City Whiskey Units,Law Dispatch,Iron County,3
+51296,c860,A,Iron Co. NCIC,County/Cedar City NCIC,Law Talk,Iron County,3
+51520,c940,A,UHP Iron Co Car,Iron County Car/Car,Law Talk,Utah Highway Patrol,3
+52032,cb40,A,Carbon Co. Ops 1,Carbon County Ops 1,Multi-Talk,Carbon County,3
+52064,cb60,A,Carbon Co. Ops 2,Carbon County Ops 2,Multi-Talk,Carbon County,3
+52096,cb80,A,Emery Co Ops 1,Emery County Ops 1,Multi-Talk,Emery County,3
+52128,cba0,A,Emery Co Ops 2,Emery County Ops 2,Multi-Talk,Emery County,3
+52160,cbc0,A,Grand Co Ops 1,County Ops 1,Multi-Talk,Grand County,3
+52192,cbe0,A,Grand Co Ops 2,County Ops 2,Multi-Talk,Grand County,3
+52224,cc00,A,Wayne Co Ops 1,County Ops 1,Multi-Talk,Wayne County,3
+52256,cc20,A,Wayne Co Ops 2,County Ops 2,Multi-Talk,Wayne County,3
+52288,cc40,A,SanJuanCo Ops 1,County Operations 1,Multi-Talk,San Juan County,3
+52320,cc60,A,SanJuanCo Ops 2,County Operations 2,Multi-Talk,San Juan County,3
+52352,cc80,A,SanpeteCo Ops 1,County Operations 1,Multi-Talk,Sanpete County,3
+52384,cca0,A,SanpeteCo Ops 2,County Operations 2,Multi-Talk,Sanpete County,3
+52416,ccc0,A,SevierCo Ops 1,County Operations 1,Multi-Talk,Sevier County,3
+52448,cce0,A,SevierCo Ops 2,County Operations 2,Multi-Talk,Sevier County,3
+52480,cd00,A,Piute Co. Ops 1,Piute County Ops 1,Multi-Talk,Piute County,3
+52512,cd20,A,Piute Co. Ops 2,Piute County Ops 2,Multi-Talk,Piute County,3
+52544,cd40,A,Garfield Co Ops1,Garfield County Ops 1,Multi-Talk,Garfield County,3
+52576,cd60,A,Garfield Co Ops2,Garfield County Ops 2,Multi-Talk,Garfield County,3
+52608,cd80,A,Kane Co. Ops 1,Kane County Ops 1,Multi-Talk,Kane County,3
+52640,cda0,A,Kane Co. Ops 2,Kane County Ops 2,Multi-Talk,Kane County,3
+52672,cdc0,A,Juab Co. Ops 1,Juab County Ops 1,Multi-Talk,Juab County,3
+52704,cde0,A,Juab Co. Ops 2,Juab County Ops 2,Multi-Talk,Juab County,3
+52736,ce00,A,Millard Co Ops 1,Millard County Ops 1,Multi-Talk,Millard County,3
+52768,ce20,A,Millard Co Ops 2,Millard County Ops 2,Multi-Talk,Millard County,3
+57600,e100,D,Astro 1,Astro 1,Business,Radio Technicians,3
+57632,e120,DE,Astro 2,Astro 2,Business,Radio Technicians,3
+58080,e2e0,D,W Valley PD 7,Police 7 Detectives,Law Talk,West Valley City,3
+58144,e320,D,Midvale PD 4,Police 4,Law Talk,Midvale,3
+58272,e3a0,D,W Valley PD P25,Police P25,Law Talk,West Valley City,3
+58336,e3e0,Ae,Ogden Strike,Strike Force,Law Tac,Ogden,3
+58464,e460,D,UtahCo SWAT2,County SWAT 2,Law Tac,Utah County,3
+58880,e600,DE,LifeFlt Enc1,Life Flight Encrypted,EMS-Talk,Utah Air Medical,3
+58912,e620,DE,LifeFlt Enc2,Life Flight Encrypted,EMS-Talk,Utah Air Medical,3
+58944,e640,DE,LifeFlt Enc3,Life Flight Encrypted,EMS-Talk,Utah Air Medical,3
+58976,e660,DE,LifeFlt Enc4,Life Flight Encrypted,EMS-Talk,Utah Air Medical,3
+59008,e680,DE,LifeFlt Wash,Life Flight Washington County,EMS-Talk,Utah Air Medical,3
+59328,e7c0,AE,S Ogden PD Car 1,Police Car/Car 1,Law Talk,South Ogden,3
+64000,fa00,A,Weber SO 64000,Sheriff 64000,Law Talk,Weber County,3
